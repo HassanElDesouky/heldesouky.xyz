@@ -348,6 +348,60 @@ code {
   font-size: 85%;
 }
 
+/* All the story viewer code */
+$story-width: 512px;
+
+#storyViewer {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  display: none;
+}
+
+#storyViewer > #storyContent {
+  height: 910px;
+  width: $story-width;
+  /*background-color: red;*/
+  margin-top: 30px;
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+#storyViewer > #storyContent > #storyProgressBar {
+  width: $story-width - 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 3px;
+  margin-top: 10px;
+}
+
+#storyViewer > #storyContent > #storyProgressBar > .storyProgressBarItemBg {
+  border-radius: 6px;
+  background-color: rgba(187, 187, 187, 0.6);
+  height: 100%;
+  display: inline-block;
+  float: left;
+}
+
+.storyProgressBarItemFg {
+  background-color: #FFF;
+  height: 100%;
+  border-radius: 3px;
+}
+
+#fakeContentToPreloadImages {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
 
 /* Syntax Highlighting */
 /* Taken from https://github.com/mojombo/tpw/blob/master/css/syntax.css */
