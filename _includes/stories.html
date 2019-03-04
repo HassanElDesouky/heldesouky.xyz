@@ -13,9 +13,12 @@
   var progressPadding = 2;
   var progressBars = null;
 
+  var animationInterval = null;
+  var nextStoryTimeout = null;
+
   function showStories() {
     var url = "https://instapipe.herokuapp.com/stories.json";
-    // url = "http://127.0.0.1:4567/stories.json"
+    url = "http://127.0.0.1:4567/stories.json"
 
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.onreadystatechange = function() { 
@@ -84,16 +87,30 @@
         document.getElementById("fakeContentToPreloadImages").src = storiesToShow[currentIndex + 1]["signed_url"]
       }, timeOutForPhotos / 3.0 * 1000)
 
-      setTimeout(function() {
+      nextStoryTimeout = setTimeout(function() {
         clearInterval(animationInterval); // stop animation, as we reached 100%
         showNextStory(currentIndex + 1);
       }, timeOutForPhotos * 1000)
     } 
     else 
     {
-      document.getElementById("storyViewer").style.display = "none"
+      dismissStories()
     }
   }
+
+  function dismissStories() {
+    document.getElementById("storyViewer").style.display = "none"
+    document.getElementById("storyProgressBar").innerHTML = ""
+    clearInterval(animationInterval)
+    clearTimeout(nextStoryTimeout)
+  }
+
+  window.addEventListener("keyup", function(e) {
+    if (e.keyCode == 27) {
+      dismissStories()
+      return true;
+    }
+  }, false);
 
   // showStories()
 </script>
