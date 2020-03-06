@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Felix Krause
+title: About Hassan ElDesouky
 categories: []
 tags: []
 status: publish
@@ -9,127 +9,41 @@ published: true
 meta: {}
 ---
 
-<h1 style="text-align: center; margin-bottom: 40px; margin-top: -50px">About Felix Krause</h1>
+<h1 style="text-align: center; margin-bottom: 40px; margin-top: -50px">Hassan ElDesouky</h1>
 
 <div id="leftCol">
-  <img src="/assets/FelixKrauseSpeakingCut.jpg" width="290" style="margin-bottom: 10px" />
+  <img src="/assets/Avatar.jpg" width="290" style="margin-bottom: 10px" />
   <br />
-  <p style="text-align: center;"><small style="">Felix Krause, creator of <a href="http://fastlane.tools" target="_blank">fastlane</a></small></p>
+  <p style="text-align: center;"><small style="">Hassan ElDesouky</small></p>
 </div>
 
 <div id="rightCol">
-  <p>Follow what I'm up to on <a href="https://twitter.com/krausefx">Twitter</a> and <a href="https://instagram.com/KrauseFx">Instagram</a>.</p>
+  <p>I’m a joiner Computer Science student in a university in Egypt. I knew some concepts about programming in high school but I started doing programming and taking it seriously in college. I’m passionate about Apple technologies such as iOS development and I’m also passionate about sharing my knowledge to help people starting out. I also like to draw and play the guitar.</p>
+  
+	<p>I started doing competitive programming for almost a year now and participated in several programming competitions like <a href="https://icpc.baylor.edu/regionals/finder/ECPC-2019">ECPC</a>, Google’s Code Jam and Hash Code, and Facebook HackerCup.</p>
 
-  <p>I'm the founder of <a href="http://fastlane.tools" target="_blank">fastlane</a>, an open source tool for iOS and Android developers focussed on making building and releasing apps easier. Just last year, fastlane has saved over 15,000,000 developer hours and is used by tens of thousands of companies around the world. <a href="https://www.forbes.at/artikel/30u30-2017-felix-krause.html" target="_blank">Forbes 30 under 30</a></p>
+	<p>I also started learning iOS development for over a year now, and have been fascinated by how Apple build beautiful and powerful apps and at the same time with really great UI design and an outstanding user experience.</p>
 
-  <p>I move to a new place <a href="/blog/going-nomad">every month</a> and don't have an apartment.</p>
+	<p>After I learned some basics of iOS development I started a personal blog on Medium to share what I’ve been doing or learning in the past days. An example of that is that… I use Apple's Voice Memos application a lot and since I started learning iOS development I have always wanted to create an audio recorder with audio visualization but I wasn’t able to find any tutorials on how to build such thing, so I started doing it myself and after I reached an acceptable result I wrote an article about the whole process on Medium.</p>
 
-  <p><b>fastlane</b></p>
-
-  <p>I worked on <a href="http://fastlane.tools" target="_blank">fastlane</a> at Google and previously Twitter in San Francisco.</p>
-
-  <p><b>Privacy research</b></p>
-
-  <p>I've published various privacy related essays on the iOS permission system. As a result my posts reached #1 on HackerNews multiple times and got covered by major media outlets - <a href="/privacy">Read more about my privacy publications</a>.</p>
-
-  <p><b>Open Source</b></p>
-
-  <p>Additionally to <a href="http://fastlane.tools" target="_blank">fastlane</a>, I'm involved in other open source projects, like <a href="https://github.com/danger/danger" target="_blank">danger</a>.</p>
-
-  <p>I'm the founder of <a href="https://ios-factor.com" target="_blank">iOS-factor.com</a>, an open source best-practices guide on how to build high-quality iOS apps.</p>
-
-  <p><b>Speaking</b></p>
-
-  <p>I spoke at various conferences around the world, most recently Tel Aviv, Oslo, Tokyo, Melbourne, Bangalore, Vienna, Berlin and San Francisco. For speaking engagements get in touch with me using the form below. Check out my 
-  <a href="https://github.com/krausefx/speaking" target="_blank">speaking schedule</a>.</p>
-
-  <p>To find my current location, as well as other info, check out <a href="https://whereisfelix.today" target="_blank">WhereIsFelix.today</a>, a fun side project that I use to experiment with new technologies.</p>
-
-  <p><b>Previous work and projects</b></p>
-  <p>Product Hunt, MindNode, Wunderlist, Bikemap amongst others, open <a href="/projects">Projects</a> for more details.</p>
+  <p>Follow what I'm up to on <a href="https://twitter.com/hassanedesouky">Twitter</a> and <a href="https://instagram.com/hassanedesouky">Instagram</a>.</p>
 </div>
 
-<hr style="margin-top: 35px" />
-
-<h2>Personal Photos</h2>
-<div class="imageCarousel" id="personalCarousel">
-</div>
-
-<hr />
-
-<h2>Speaking</h2>
-<div class="imageCarousel">
-  <a href="/assets/speaking/FelixKrause1.jpg" target="_blank">
-    <img src="/assets/speaking/FelixKrause1.jpg" alt="Felix Krause (KrauseFx) speaking at conference at Facebook Mobile at Scale in Tel Aviv, Israel" />
-  </a>
-  <a href="/assets/speaking/FelixKrause4.jpg" target="_blank">
-    <img src="/assets/speaking/FelixKrause4.jpg" alt="Felix Krause (KrauseFx) speaking at conference at trySwift in New York" />
-  </a>
-  <a href="/assets/speaking/FelixKrause2.jpg" target="_blank">
-    <img src="/assets/speaking/FelixKrause2.jpg" alt="Felix Krause (KrauseFx) speaking at conference at Facebook Mobile at Scale in Tel Aviv, Israel" />
-  </a>
-  <a href="/assets/speaking/FelixKrause5.jpg" target="_blank">
-    <img src="/assets/speaking/FelixKrause5.jpg" alt="Felix Krause (KrauseFx) speaking at conference at WeAreDevelopers in Vienna, Austria" />
-  </a>
-  <a href="/assets/speaking/FelixKrause3.jpg" target="_blank">
-    <img src="/assets/speaking/FelixKrause3.jpg" alt="Felix Krause (KrauseFx) speaking at conference at Facebook Mobile at Scale in Tel Aviv, Israel" />
-  </a>
-  <a href="/assets/speaking/FelixKrause6.jpg" target="_blank">
-    <img src="/assets/speaking/FelixKrause6.jpg" alt="Felix Krause (KrauseFx) speaking at conference at trySwift in New York" />
-  </a>
-</div>
-
-<script type="text/javascript">
-  var url = "https://whereisfelixtoday-backend.now.sh/api.json";
-
-  var xmlHttp = new XMLHttpRequest();
-  xmlHttp.onreadystatechange = function() { 
-      if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
-        var content = JSON.parse(xmlHttp.responseText)
-        var photos = content["recentPhotos"]
-        var personalCarousel = document.getElementById("personalCarousel")
-        for (let photoIndex in photos) {
-          let currentPhoto = photos[photoIndex]
-
-          var linkNode = document.createElement("a");
-          linkNode["href"] = currentPhoto["link"]
-          linkNode["target"] = "_blank"
-          var imageNode = document.createElement("span")
-          imageNode["style"] = "background-image: url(" + currentPhoto["url"] + ")"
-          imageNode["alt"] = currentPhoto["text"]
-
-          linkNode.appendChild(imageNode)
-          personalCarousel.appendChild(linkNode)
-
-          if (photoIndex > 7) {
-            break; // We don't want to load all the images
-          }
-        }
-      }
-  }
-  xmlHttp.open("GET", url, true); // true = asynchronous 
-  xmlHttp.send(null);
-</script>
-
-<hr />
 
 <div style="width: 100%; float: left; margin-top: 20px; margin-bottom: 20px;">
-  <form id="contactform" method="POST" action="https://formspree.io/contact@krausefx.com">
+  <form id="contactform" method="POST" action="https://formspree.io/xgeylegw">
     <p><b>Email Address</b></p>
     <input type="email" name="_replyto" placeholder="Your email address">
 
     <p><b>Message</b></p>
     <textarea placeholder="Your message" name="message"></textarea>
-    <input type="hidden" name="_subject" value="New message from krausefx.com" />
+    <input type="hidden" name="_subject" value="New message from heldesouky.xyz" />
     <br />
     <input type="submit" value="Submit">
   </form>
 </div>
 
 <hr />
-<p style="text-align: right; color: #999">
-  WeAreDevelopers photos by Tamás Künsztler
-</p>
 
 <style type="text/css">
   .imageCarousel {
@@ -210,7 +124,7 @@ meta: {}
   }
   @media screen and (min-width: 800px) {
     #leftCol {
-        width: 40%; 
+        width: 40%;
         float: left;
         height: 820px;
       }
@@ -218,7 +132,7 @@ meta: {}
   }
   @media screen and (min-width: 800px) {
     #rightCol {
-      width: 55%; 
+      width: 55%;
       float: right;
     }
   }

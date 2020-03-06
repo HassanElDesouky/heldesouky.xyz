@@ -13,15 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Felix Krause
-email: website@krausefx.com
+title: Hassan ElDesouky
+email: hassanaeldesouky@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal website and blog of Felix Krause
+  Personal website and blog of Hassan ElDesouky
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://krausefx.com/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: KrauseFx
-github_username:  KrauseFx
-google_analytics: UA-18658848-6
+url: "https://heldesouky.xyz/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: hassanedesouky
+github_username:  hassaneldesouky
+google_analytics: UA-84722092-1
 
 # Build settings
 markdown: kramdown
@@ -31,7 +31,7 @@ plugins:
   - jekyll-paginate
   - jekyll-twitter-plugin
 permalink: /blog/:title
-paginate: 4
+paginate: 2
 paginate_path: "/blog/page:num/"
 
 # Exclude from processing.
