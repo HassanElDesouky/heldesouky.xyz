@@ -24,6 +24,11 @@ All the major projects I've worked on in the past.
     <div class="metadata">
       {{ project.metadata }}
     </div>
+    {% if project.blog != "" %}
+      <div class="blog">
+          <a href="{{ project.blog }}" target="_blank">Blog Post</a>
+      </div>
+    {% endif %}
   </div>
 {% endfor %}
 
@@ -38,7 +43,7 @@ For more details check out my [about page](/about).
     margin-right: 10px;
     padding: 20px;
     width: calc(50% - 40px - 20px);
-    height: 130px;
+    height: 160px;
     display: inline-block;
     border-radius: 3px;
     vertical-align: top;
@@ -75,6 +80,23 @@ For more details check out my [about page](/about).
     position: absolute;
     bottom: 0px;
     right: 0px;
+    border-radius: 3px 0 0 0;
+  }
+
+  .fx-project > .blog {
+    font-size: 14px;
+    color: #777;
+    border: 1px solid #d1d5da;
+    border-left: 0;
+    border-bottom: 0;
+    max-width: 80%;
+    
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
     border-radius: 3px 0 0 0;
   }
 </style>
