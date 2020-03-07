@@ -11,10 +11,9 @@ meta: {}
 
 # Projects
 
-I will be adding all of the projects that I've worked on.
-<!-- All the major projects I've worked on in the past. -->
+All the major projects I've worked on in the past.
 
-<!-- {% for project in site.data.projects %}
+{% for project in site.data.projects %}
   <div class="fx-project">
     <div class="title">
       <h3><a href="{{ project.url }}" target="_blank">{{ project.title }}</a></h3>
@@ -78,4 +77,4 @@ For more details check out my [about page](/about).
     right: 0px;
     border-radius: 3px 0 0 0;
   }
-</style> -->
+</style>
