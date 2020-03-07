@@ -1,6 +1,6 @@
-<h1><a href="https://krausefx.com">krausefx.com</a></h1>
+<h1><a href="https://heldesouky.xyz">heldesouky.xyz</a></h1>
 
-After many years, my website is finally open source, so everyone can contribute 👍 
+The website is originally forked from [KrauseFx](https://github.com/KrauseFx/krausefx.com)
 
 To run the server locally:
 
