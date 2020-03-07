@@ -12,7 +12,7 @@ bundle exec jekyll build
 
 # Bots need names too
 git config --global user.email "hassaneldesouky@icloud.com"
-git config --global user.name "KrauseFx-Bot"
+git config --global user.name "HassanElDesouky-Bot"
 
 # Delete old directories (if any)
 rm -rf "/tmp/heldesouky.xyz"
@@ -22,7 +22,7 @@ cp -R "_site/" "/tmp/heldesouky.xyz"
 # Check out gh-pages and clear all files
 git reset --hard HEAD # we don't want the `git checkout` to cause issues (e.g. https://circleci.com/gh/fastlane/docs/730)
 git checkout -b gh-pages
-git remote add upstream "https://$GITHUB_TOKEN@github.com/KrauseFx/heldesouky.xyz.git"
+git remote add upstream "https://$GITHUB_TOKEN@github.com/HassanElDesouky/heldesouky.xyz.git"
 git pull
 rm -rf *
 # Copy the finished HTML pages to the current directory
