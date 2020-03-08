@@ -33,7 +33,7 @@ meta: {}
       <b>AudioKit </b><a href="https://github.com/AudioKit/AudioKit/pull/1956">#1965 Merged</a> Update Frameworks README.md to be more descriptive.
     </li>
     <li>
-      <b>FDSoundActivatedRecorder </b><a href="https://github.com/fulldecent/FDSoundActivatedRecorder/pull/32">#32 Merged</a> Added documentation on how to record audio regurally.
+      <b>FDSoundActivatedRecorder </b><a href="https://github.com/fulldecent/FDSoundActivatedRecorder/pull/32">#32 Merged</a> Added documentation on how to record audio regularly.
     </li>
     <li>
       <b>Instabug </b><a href="https://github.com/Instabug/Instabug-iOS/pull/354">#354 Open</a> Found a bug on installing the framework and updated the documentation.
