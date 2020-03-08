@@ -8,7 +8,7 @@
 
   <title>
     
-       &middot; Hassan ElDesouky
+      Projects &middot; Hassan ElDesouky
     
   </title>
   
@@ -51,8 +51,8 @@
       </label>
 
       <div class="trigger">
-        <a href="/" class="page-link active">Blog</a>
-        <a href="/projects" class="page-link ">Projects</a>
+        <a href="/" class="page-link ">Blog</a>
+        <a href="/projects" class="page-link active">Projects</a>
         <a href="/archive" class="page-link ">Archive</a>
         <a href="/about" class="page-link ">About</a>
       </div>
@@ -63,25 +63,182 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
+        <h1 id="projects">Projects</h1>
+
+<p>All the major projects I’ve worked on in the past.</p>
+
+<div class="fx-project">
+    <div class="title">
+      <h3><a href="https://testflight.apple.com/join/e9oLmlRi" target="_blank">Remelo</a></h3>
+    </div>
+    <div class="subtitle">
+      Developed a reminder app with the ability to make reminders with voice recording and with location based notifications.<br /> <b>Technologies Used:</b> Swift, UIKit, MapKit, Speech, AVFoundation, In-App Purchases, CloudKit, CoreData, Local and Remote Notification, Instabug.
+    </div>
+    <div class="metadata">
+      Currently on TestFlight and soon on 🍎 App Store
+    </div>
+    
+  </div>
+
+<div class="fx-project">
+    <div class="title">
+      <h3><a href="https://github.com/HassanElDesouky/VoiceMemosClone" target="_blank">VoiceMemosClone</a></h3>
+    </div>
+    <div class="subtitle">
+      Developed a clone of the original Apple’s Voice Memos app that supports audio visualizing while recording.<br /> <b>Technologies Used:</b> Swift, UIKit.
+    </div>
+    <div class="metadata">
+      GitHub
+    </div>
+    
+      <div class="blog">
+          <a href="https://heldesouky.xyz/blog/How-I-created-Apple-s-Voice-Memos-clone" target="_blank">Blog Post</a>
+      </div>
+    
+  </div>
+
+<div class="fx-project">
+    <div class="title">
+      <h3><a href="https://github.com/HassanElDesouky/GitRepo" target="_blank">GitRepo</a></h3>
+    </div>
+    <div class="subtitle">
+      Developed an iOS application with Swift to get GitHub user’s repositories and get other user’s public repositories.<br /> <b>Technologies Used:</b> Swift, UIKit, WebKit, Networking, GitHub API, GitHub OAuth.
+    </div>
+    <div class="metadata">
+      GitHub
+    </div>
+    
+  </div>
+
+<div class="fx-project">
+    <div class="title">
+      <h3><a href="https://github.com/HassanElDesouky/AppleShortcuts" target="_blank">AppleShortcuts</a></h3>
+    </div>
+    <div class="subtitle">
+      Developed the icon-creating system of Apple's Shortcuts app.<br /> <b>Technologies Used:</b> Swift, UIKit.
+    </div>
+    <div class="metadata">
+      GitHub
+    </div>
+    
+      <div class="blog">
+          <a href="https://heldesouky.xyz/blog/How-I-Created-Apple-s-Shortcuts-Icon-System" target="_blank">Blog Post</a>
+      </div>
+    
+  </div>
+
+<div class="fx-project">
+    <div class="title">
+      <h3><a href="https://github.com/HassanElDesouky/Rotaty" target="_blank">Rotaty</a></h3>
+    </div>
+    <div class="subtitle">
+      Rotate images inside of Facebook.<br /> <b>Technologies Used:</b> JavaScript, ChromeExtension.
+    </div>
+    <div class="metadata">
+      GitHub
+    </div>
+    
+      <div class="blog">
+          <a href="https://heldesouky.xyz/blog/How-to-come-up-with-an-app-idea" target="_blank">Blog Post</a>
+      </div>
+    
+  </div>
+
+<div class="fx-project">
+    <div class="title">
+      <h3><a href="https://github.com/HassanElDesouky/SoundcloudLikesFetcher" target="_blank">SoundcloudLikesFetcher</a></h3>
+    </div>
+    <div class="subtitle">
+      Wrote a script to get a file contains names and links to all of my liked songs on Soundcloud.<br /> <b>Technologies Used:</b> Python, Scripting.
+    </div>
+    <div class="metadata">
+      GitHub
+    </div>
+    
+  </div>
+
+<div class="fx-project">
+    <div class="title">
+      <h3><a href="https://github.com/HassanElDesouky/BigIntegerClass" target="_blank">C++ BigInteger</a></h3>
+    </div>
+    <div class="subtitle">
+      BigInteger Class for C++ to deal with very large integers.<br /> <b>Technologies Used:</b> C++.
+    </div>
+    <div class="metadata">
+      GitHub
+    </div>
+    
+  </div>
+
+<p><br /></p>
+
+<p>For more details check out my <a href="/about">about page</a>.</p>
+
+<style type="text/css">
+  .fx-project {
+    border: 1px solid #d1d5da;
+    margin-bottom: 16px;
+    margin-right: 10px;
+    padding: 20px;
+    width: calc(50% - 40px - 20px);
+    height: 160px;
+    display: inline-block;
+    border-radius: 3px;
+    vertical-align: top;
+    position: relative;
   }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
+
+  @media screen and (max-width: 800px) {
+    .fx-project {
+      width: calc(100% - 40px);
+    }
+  }
+
+  .fx-project > .title {
+
+  }
+  .fx-project > .title > h3 > a {
+    text-decoration: none;
+  }
+  .fx-project > .subtitle {
+    color: #586069;
+    font-size: 14px;
+  }
+  .fx-project > .metadata {
+    font-size: 14px;
+    color: #777;
+    border: 1px solid #d1d5da;
+    border-right: 0;
+    border-bottom: 0;
+    max-width: 80%;
+    
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 3px 0 0 0;
+  }
+
+  .fx-project > .blog {
+    font-size: 14px;
+    color: #777;
+    border: 1px solid #d1d5da;
+    border-left: 0;
+    border-bottom: 0;
+    max-width: 80%;
+    
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 3px 0 0 0;
   }
 </style>
 
-<div class="container">
-  <h2>404 - page not found</h2>
-
-  <p>Return to the homepage by <a href="/">clicking here</a></p>
-</div>
 
       </div>
     </main>

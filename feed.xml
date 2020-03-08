@@ -1,0 +1,1643 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="https://heldesouky.xyz//feed.xml" rel="self" type="application/atom+xml" /><link href="https://heldesouky.xyz//" rel="alternate" type="text/html" /><updated>2020-03-08T21:25:11+00:00</updated><id>https://heldesouky.xyz//feed.xml</id><title type="html">Hassan ElDesouky</title><subtitle>Personal website and blog of Hassan ElDesouky</subtitle><entry><title type="html">How I failed 39 interviews, and what I’ve learned</title><link href="https://heldesouky.xyz//blog/I-Failed-Again-Therefore-I-m-Restarting-My-Journey" rel="alternate" type="text/html" title="How I failed 39 interviews, and what I’ve learned" /><published>2019-11-01T00:00:00+00:00</published><updated>2019-11-01T00:00:00+00:00</updated><id>https://heldesouky.xyz//blog/I-Failed-Again--Therefore--I-m-Restarting-My-Journey</id><content type="html" xml:base="https://heldesouky.xyz//blog/I-Failed-Again-Therefore-I-m-Restarting-My-Journey">&lt;h2 id=&quot;i-failed-again-therefore-im-restarting-my-journey&quot;&gt;I Failed Again! Therefore, I’m Restarting My Journey&lt;/h2&gt;
+
+&lt;p&gt;It’s time to get back on the path&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2560/1*npJnt5eK1wK4RNU2bqFYVg.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@rawcurve?utm_source=medium&amp;amp;utm_medium=referral&quot;&gt;Ole
+Witt&lt;/a&gt;
+on &lt;a href=&quot;https://unsplash.com?utm_source=medium&amp;amp;utm_medium=referral&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Do not be embarrassed by your failures, learn from them and start
+again.” — Richard Branson&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;backstory&quot;&gt;Backstory&lt;/h3&gt;
+
+&lt;p&gt;My name is Hassan. I’m a computer-science student at a university in
+Egypt. For over a year now, I’ve been trying to get a job as an iOS
+developer or get an internship at a big tech company like Apple, Google,
+or Amazon. But, sadly, I was constantly failing the interviews.&lt;/p&gt;
+
+&lt;p&gt;In order to maximize my odds to get my dream job at these big tech
+companies, I decided to start doing competitive programming. It’s fun
+for me, and I’m learning all of the algorithms and data structures
+needed to pass my interviews. So it’s a win-win situation.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-present&quot;&gt;The present&lt;/h4&gt;
+
+&lt;p&gt;I interviewed with Google last month, and I got rejected. I also
+participated in Google Code Jam, and I only passed the qualification
+round and couldn’t pass any other round after that.&lt;/p&gt;
+
+&lt;p&gt;Last month, I qualified for the Egyptian Collegiate Programming Contest
+(ECPC) but, unfortunately, didn’t qualify for the Arab and Africa
+Collegiate Programming Contest (ACPC).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*L22kuy76hSbw4N3I5O39-g.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;My team and I at ECPC 2019&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;what-i-didwrong&quot;&gt;What I did wrong&lt;/h4&gt;
+
+&lt;p&gt;In order to improve my self — in my opinion — I should admit I did some
+stupid and wrong things and learn from them.&lt;/p&gt;
+
+&lt;p&gt;Like, for example, I procrastinated a lot and didn’t solve a lot of
+problems and just wasted a lot of time. I also worked really hard for
+just the month before the contest, and that’s really wrong. I should
+have been working all year — not just before the contest … it’s not a
+final exam!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*UmuZeTOivzc2Y99td_H53w.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*UT212DhqFGURlDIDvMpCmQ.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My contest rating on Codeforces.com&lt;/p&gt;
+
+&lt;p&gt;As you can see from my contest rating on
+&lt;a href=&quot;https://codeforces.com/&quot;&gt;Codeforces,&lt;/a&gt; I wasn’t practicing contests for
+a long time, Then just right before the ECPC 2019 qualifications, I
+started participating in &lt;a href=&quot;https://codeforces.com/&quot;&gt;Codeforces&lt;/a&gt; rounds.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-isnext&quot;&gt;What Is Next&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I’m restarting my journey. It’s really the same journey, but it’s
+time to get back on the path. I will do this!”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;tldr&quot;&gt;&lt;strong&gt;tl;dr&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;I will study and solve problems, solve some more problems, and try
+again.&lt;/p&gt;
+
+&lt;h4 id=&quot;my-strategy&quot;&gt;My strategy&lt;/h4&gt;
+
+&lt;p&gt;Everything below is written with competitive programming in mind, but
+practicing for coding interviews is similar.&lt;/p&gt;
+
+&lt;p&gt;Your goal should be to get better in algorithms and data structures.&lt;/p&gt;
+
+&lt;h4 id=&quot;solve-problems&quot;&gt;Solve problems&lt;/h4&gt;
+
+&lt;p&gt;Solve problems slightly above your level — those that aren’t easy for
+you, but you can usually solve. If you’re &lt;strong&gt;stuck&lt;/strong&gt; for 20–30 minutes
+(an hour in case of harder problems), read an editorial, and make sure
+you understand it. Implement a solution — and if you struggled, then go
+read other people’s code. See how they did it easier.&lt;/p&gt;
+
+&lt;p&gt;Note the word “stuck” in bold. If you aren’t out of ideas, then you
+aren’t stuck. You can give up only if you didn’t do any progress for
+some time.&lt;/p&gt;
+
+&lt;h4 id=&quot;participate-in-online-rounds-as-much-aspossible&quot;&gt;Participate in online rounds as much as possible&lt;/h4&gt;
+
+&lt;p&gt;You should participate in all Codeforces’ online rounds, and don’t be
+afraid if your rating drops down. Because even if it did, it will
+eventually go up again.&lt;/p&gt;
+
+&lt;h4 id=&quot;upsolve-contestproblems&quot;&gt;Upsolve contest problems&lt;/h4&gt;
+
+&lt;p&gt;First of all, &lt;em&gt;upsolve&lt;/em&gt; means solving the problems you couldn’t solve
+during the live contest. So you’ll upsolve problems you didn’t solve
+during a contest. Not all of them, just one or two more.&lt;/p&gt;
+
+&lt;p&gt;Don’t try something very hard because you likely won’t solve it. There
+will be a time when you can solve those much harder problems.&lt;/p&gt;
+
+&lt;h4 id=&quot;practicing-a-particular-data-structure-or-algorithm&quot;&gt;Practicing a particular data structure or algorithm&lt;/h4&gt;
+
+&lt;p&gt;Use Google to find some tutorials, and read them. Solve problems on that
+topic. After a while, go back to solving random problems. You should now
+be able to recognize similar problems and apply the new
+algorithm/technique you learned.&lt;/p&gt;
+
+&lt;p&gt;For smaller algorithms/techniques, it’s enough to solve a few problems
+to understand it well enough. In the case of big topics, like dynamic
+programming, you should solve dozens of problems. But don’t spend months
+on that because you cheat a little bit by knowing what you should use in
+a problem. When you read a problem during a contest, you don’t know its
+tags/topics. Sometimes the hard part is to come up with what you should
+use.&lt;/p&gt;
+
+&lt;p&gt;Recognizing patterns is a valuable skill, and that’s why you need to
+mainly solve random problems.&lt;/p&gt;
+
+&lt;h4 id=&quot;solving-all-of-the-problems-in-competitive-programming-3&quot;&gt;Solving all of the problems in “Competitive Programming 3”&lt;/h4&gt;
+
+&lt;p&gt;I know there are a lot of problems — around 1700 problems in this
+book — but honestly, they are really good problems, and the book is well
+organized.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cpbook.net/#CP3details&quot; title=&quot;https://cpbook.net/#CP3details&quot;&gt;Competitive Programming 3: The New Lower Bound of Programming Contests&lt;/a&gt;&lt;a href=&quot;https://cpbook.net/#CP3details&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;training-for-icpc2021&quot;&gt;Training for ICPC 2021&lt;/h4&gt;
+
+&lt;p&gt;I’ll focus on solving old problems from this competition preferably with
+a team. Don’t worry too much about it, though. It’s still just about
+being good at algorithms. You don’t waste time by solving problems from
+random platforms.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;I’ll solve more and more problems, and, hopefully, I’ll qualify for the
+ICPC next year and maybe become red or yellow on Codeforces.&lt;/p&gt;
+
+&lt;h4 id=&quot;resources-and-references&quot;&gt;Resources and references&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lukipuki.github.io/contest-wiki/team-strategy.html&quot;&gt;Wiki for ICPC Strategy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/better-programming/the-ultimate-guide-for-the-icpc-407b7f6409dd&quot;&gt;The Ultimate Guide for the ICPC&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://codeforces.com/blog/entry/66909&quot;&gt;A way to Practice Competitive Programming : From Rating 1000 to 2400+&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://codeforces.com/blog/entry/17842&quot;&gt;The ‘science’ of training in competitive programming&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Errichto/youtube/wiki/How-to-practice%3F?fbclid=IwAR3i4-RUmoN3VM2oY-tP3WC60maN3V7hd2R5vTeS7Xs7I1LXNdb5_VjTnUA&quot;&gt;How to practice Competitive Programming by Errichto&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some YouTube channels for tutorials:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg&quot;&gt;Errichto&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCBLr7ISa_YDy5qeATupf26w&quot;&gt;Algorithms Live&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/user/purpongie&quot;&gt;WilliamFise&lt;/a&gt;t&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;By &lt;a href=&quot;https://medium.com/@hassaneldesouky&quot;&gt;Hassan El Desouky&lt;/a&gt; on &lt;a href=&quot;https://medium.com/p/58de2f7a86f3&quot;&gt;November
+1, 2019&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@hassaneldesouky/i-failed-again-therefore-im-restarting-my-journey-58de2f7a86f3&quot;&gt;Canonical
+link&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="blogging" /><category term="advice" /><category term="interviews" /><summary type="html">I Failed Again! Therefore, I’m Restarting My Journey</summary></entry><entry><title type="html">The best way to start learning React Native</title><link href="https://heldesouky.xyz//blog/The-best-way-to-start-learning-React-Native" rel="alternate" type="text/html" title="The best way to start learning React Native" /><published>2019-10-24T00:00:00+00:00</published><updated>2019-10-24T00:00:00+00:00</updated><id>https://heldesouky.xyz//blog/The-best-way-to-start-learning-React-Native</id><content type="html" xml:base="https://heldesouky.xyz//blog/The-best-way-to-start-learning-React-Native">&lt;h2 id=&quot;the-best-way-to-start-learning-react-native&quot;&gt;The best way to start learning React Native&lt;/h2&gt;
+
+&lt;p&gt;I’ll be doing a project using React Native this semester for college.
+So, I gathered every resource that I thought it might be helpful for…&lt;/p&gt;
+
+&lt;h3 id=&quot;the-best-way-to-start-learning-reactnative&quot;&gt;The best way to start learning React Native&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*h-iNZHO2xfF8TSPHWEdG3w.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ll be doing a project using React Native this semester for college.
+So, I gathered every resource that I thought it might be helpful for
+someone starting to learn React Native.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;But firstly… What’s React Native?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;whats-reactnative&quot;&gt;What’s React Native&lt;/h4&gt;
+
+&lt;p&gt;React Native is an exciting framework that enables web developers to
+create robust mobile applications using their existing JavaScript
+knowledge. It offers faster mobile development, and more efficient code
+sharing across iOS, Android, and the Web, without sacrificing the end
+user’s experience or application quality. The tradeoff is that it’s new,
+and still a work in progress. If your team can handle the uncertainty
+that comes with working with new technology and wants to develop mobile
+applications for more than just one platform, you should be looking at
+React Native.&lt;/p&gt;
+
+&lt;h4 id=&quot;why-reactnative&quot;&gt;Why React Native&lt;/h4&gt;
+
+&lt;p&gt;The first and foremost reason to use React Native is that the developer
+has to write one set of code, (JavaScript code) to enjoy the performance
+of the REACT Native Mobile Applications.&lt;/p&gt;
+
+&lt;p&gt;Pros:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Cross-Platform&lt;/strong&gt; The React Native apps can be developed via using a single codebase for
+both the platforms simultaneously, which increased its popularity even
+more.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Performance&lt;/strong&gt; At the initial stages, ‘hybrid’ or ‘mobile web’ apps were popular for
+their uncommonness mainly. However, when it comes to performance, the
+complicated the apps, the more lags it experienced. The REACT Native
+apps are compiled into natively written code, which enables it to not
+only work on both the operating systems but also functions the same way
+on both the platforms with no lags at all.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Other benefits of using REACT Native Framework include its faster
+development, ability to reuse components and ease to be maintained.
+Besides, it is a timesaving process and therefore many industries and
+even individuals today prefer using React Native along with
+&lt;a href=&quot;https://www.thinkwik.com/nodejs-development.html&quot;&gt;NodeJS&lt;/a&gt; for creating
+astonishing mobile applications.&lt;/p&gt;
+
+&lt;p&gt;Cons:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;It’s Technological Edge&lt;/strong&gt; Though the React Native’s pre-packaged elements set you aside from
+having much technical advancement, however, you will still need a
+professional developer to watch out some technical glitches and bugs.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Might be killed overnight!&lt;/strong&gt; Since the social media giant Facebook has developed this framework,
+its existence remained uncertain as Facebook has all the rights to kill
+off the project anytime. Though with the current popularity of the
+technology, it is unlikely to happen.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;introduction&quot;&gt;Introduction&lt;/h4&gt;
+
+&lt;p&gt;First of all, if you know how to code, then you are all set… but if you
+don’t know how to code you should check out some introductory courses
+first to get you started with programming and after that, come back
+again.&lt;/p&gt;
+
+&lt;p&gt;The best way to learn React Native is to understand what mobile
+development is. I am coming from iOS, so I have an idea of what building
+an app looks like. What I mean is that you need to know the basic
+concepts like NavigationController and TabBar… etc.&lt;/p&gt;
+
+&lt;p&gt;You need to get these things straight because you will be using them in
+React Native. A few people would suggest implementing them in Kotlin,
+Java or Objective-C/Swift and then see how they work in React Native,
+but I don’t think that is strictly necessary.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-nextsteps&quot;&gt;The next steps&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Start by reading the getting started tutorial and try to run it on
+your machine. It’s the first thing I did. This will give you a sense
+of what we are talking about. &lt;a href=&quot;https://facebook.github.io/react-native/docs/getting-started.html&quot;&gt;Getting Started — React Native | A framework for building native apps using React&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Read about the Components specs and lifecycle in React. RN comes
+from ReactJS, they have a lot of things in common and understanding
+things like componentDidMount() or componentWillMount() will help
+you. &lt;a href=&quot;https://facebook.github.io/react/docs/component-specs.html&quot;&gt;Component Specs and Lifecycle | React&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Then read Pete Hunt’s tutorial about ReactJS. You need to understand
+what components are and how they are implemented. &lt;a href=&quot;https://facebook.github.io/react/docs/thinking-in-react.html&quot;&gt;Thinking in React&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I would suggest going through the other sample apps, all of them.
+Read code and when you don’t understand something, just Google it.
+If you want to see how an app needs to be structured in the proper
+way, you may want to have a look at the Facebook8 App
+(&lt;a href=&quot;https://github.com/fbsamples/f8app&quot;&gt;fbsamples/f8app&lt;/a&gt;). This is
+really good, but it’s not for beginners. Come back here when you
+want to see how to use Redux in a React Native app.&lt;/li&gt;
+  &lt;li&gt;There are plenty of tutorials that explain how to write a simple app
+in React Native. You can use this one: &lt;a href=&quot;https://ryanclark.me/going-native-with-react&quot;&gt;Going native with React, an introduction&lt;/a&gt;. It’s
+probably outdated by now, but it will give you an idea on what you
+need to complete your project.&lt;/li&gt;
+  &lt;li&gt;Yes, I said project. You need something to start with. You learn by
+coding (and reading), not just reading or (even worse) watching. Why
+don’t you try to implement Instagram? Tinder could be another idea.&lt;/li&gt;
+  &lt;li&gt;Don’t read the Docs. It’s not a book, but just a reference to the
+things you will need to use along your journey, so while developing
+keep a tab open, if you are not familiar with it. Keep in mind that
+React Native is moving fast, so you may want to check them from time
+to time.&lt;/li&gt;
+  &lt;li&gt;Have a look at &lt;a href=&quot;https://rnplay.org/&quot;&gt;Share and test your React Native code in the browser&lt;/a&gt;. This is a really interesting resource
+with a lot of examples. You will find it integrated in the docs as
+well.&lt;/li&gt;
+  &lt;li&gt;Download the Facebook 8 app, Facebook Groups (this is not 100% React
+Native), Facebook Ads’ Manager and open the events view on your
+Facebook app. Welcome to React Native.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/unbug/react-native-train&quot;&gt;React Native Training&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;other-courses&quot;&gt;Other courses&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://top10onlinecourses.com/best-react-native-online-courses/&quot;&gt;The Complete React Native and Redux Course&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://top10onlinecourses.com/best-react-native-online-courses/&quot;&gt;React Native Design — Build front end of 10 mobile Apps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://top10onlinecourses.com/best-react-native-online-courses/&quot;&gt;React Native — The Practical Guide&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://top10onlinecourses.com/best-react-native-online-courses/&quot;&gt;React Native: Advanced Concepts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;resources&quot;&gt;Resources&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.quora.com/What-is-the-best-way-to-start-learning-React-Native#&quot;&gt;What is the best way to start learning React Native?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@thinkwik/react-native-what-is-it-and-why-is-it-used-b132c3581df&quot;&gt;What and why REACT Native&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;By &lt;a href=&quot;https://medium.com/@hassaneldesouky&quot;&gt;Hassan El Desouky&lt;/a&gt; on &lt;a href=&quot;https://medium.com/p/21a6b2c0b430&quot;&gt;October
+24, 2019&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@hassaneldesouky/the-best-way-to-start-learning-react-native-21a6b2c0b430&quot;&gt;Canonical
+link&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="cross-platform" /><category term="react-native" /><category term="advice" /><category term="blogging" /><summary type="html">The best way to start learning React Native</summary></entry><entry><title type="html">How to improve in Math for Programming</title><link href="https://heldesouky.xyz//blog/How-to-improve-in-Math-for-Programming" rel="alternate" type="text/html" title="How to improve in Math for Programming" /><published>2019-10-03T00:00:00+00:00</published><updated>2019-10-03T00:00:00+00:00</updated><id>https://heldesouky.xyz//blog/How-to-improve-in-Math-for-Programming</id><content type="html" xml:base="https://heldesouky.xyz//blog/How-to-improve-in-Math-for-Programming">&lt;h2 id=&quot;how-to-improve-in-math-for-programming&quot;&gt;How to improve in Math for Programming&lt;/h2&gt;
+
+&lt;p&gt;My math skills aren’t that great, to be honest. I used to suffer from
+doing some easy problem solving that are math-related.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-improve-in-math-for-programming-1&quot;&gt;How to improve in Math for Programming&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2560/1*7AKb9rynbkiMVV6pReqW2g.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My math skills aren’t that great, to be honest. I used to suffer from
+doing some easy problem solving that are math-related.&lt;/p&gt;
+
+&lt;p&gt;I do think my poor math skills are mostly because I didn’t get a good
+foundation in high school. So, without further ado let’s get into it.&lt;/p&gt;
+
+&lt;p&gt;To improve in Math you would actually have to solve a lot of
+Math-related programming problems. Like the ones that competitive
+programmers do.&lt;/p&gt;
+
+&lt;p&gt;I was researching a lot and I found out some great resources.&lt;/p&gt;
+
+&lt;h4 id=&quot;first-step&quot;&gt;First step&lt;/h4&gt;
+
+&lt;p&gt;If you know nothing about math… The best way to start your journey is by
+watching &lt;a href=&quot;https://www.khanacademy.org/&quot;&gt;&lt;strong&gt;Khan Academy&lt;/strong&gt;&lt;/a&gt;, of course.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*J3b2UBp_PULFirBSdOhDZg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.khanacademy.org/&quot;&gt;https://www.khanacademy.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Khan Academy has a huge library of educational videos about different
+Math topics, starting from kindergarten level to some university level
+topics.&lt;/p&gt;
+
+&lt;h4 id=&quot;second-step&quot;&gt;Second step&lt;/h4&gt;
+
+&lt;p&gt;Use the &lt;a href=&quot;https://github.com/ossu/computer-science#core-math&quot;&gt;&lt;strong&gt;Open Source Society
+University&lt;/strong&gt;&lt;/a&gt; math
+curriculum.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*cfj2tTVaIb9vkgAE6LMu0w.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ossu/computer-science#core-math&quot;&gt;https://github.com/ossu/computer-science#core-math&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;third-step&quot;&gt;Third step&lt;/h4&gt;
+
+&lt;p&gt;In my opinion, this is the most important step. And it’s actually doing
+a lot of Problem Solving.&lt;/p&gt;
+
+&lt;p&gt;A really great resource is a book called &lt;a href=&quot;https://cpbook.net&quot;&gt;&lt;strong&gt;Competitive Programming
+3&lt;/strong&gt;&lt;/a&gt; the book is great overall, and most importantly
+the Math chapter in it. The authors have really gathered a lot of
+Math-related problems and if you solve just a few you will definitely
+improve your Math and Problem Solving skills.&lt;/p&gt;
+
+&lt;p&gt;You don’t need to buy the book to check the problems though. You can
+check the
+&lt;a href=&quot;https://onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=695&quot;&gt;&lt;strong&gt;problems&lt;/strong&gt;&lt;/a&gt;
+available in the book on a website called &lt;a href=&quot;https://onlinejudge.org/&quot;&gt;&lt;strong&gt;UVA-Online
+Judge&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*NMebqnrR-0vxaryq30HNNg.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=695&quot;&gt;https://onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=695&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There are more than 300 problems in this chapter focused on Math.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h4&gt;
+
+&lt;p&gt;Finally, Math is hard but like anything in life if you do Math more and
+more you will eventually improve.&lt;/p&gt;
+
+&lt;p&gt;Good luck studying and I’ll be glad if you can share with me any other
+resource that you found helpful.&lt;/p&gt;
+
+&lt;p&gt;By &lt;a href=&quot;https://medium.com/@hassaneldesouky&quot;&gt;Hassan El Desouky&lt;/a&gt; on &lt;a href=&quot;https://medium.com/p/46590f035538&quot;&gt;October
+3, 2019&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@hassaneldesouky/how-to-improve-in-math-for-programming-46590f035538&quot;&gt;Canonical
+link&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="math" /><category term="algorithm" /><category term="data-structure" /><category term="c++" /><category term="advice" /><category term="blogging" /><summary type="html">How to improve in Math for Programming</summary></entry><entry><title type="html">The Ultimate Guide for the ICPC</title><link href="https://heldesouky.xyz//blog/The-Ultimate-Guide-for-the-ICPC" rel="alternate" type="text/html" title="The Ultimate Guide for the ICPC" /><published>2019-09-19T00:00:00+00:00</published><updated>2019-09-19T00:00:00+00:00</updated><id>https://heldesouky.xyz//blog/The-Ultimate-Guide-for-the-ICPC</id><content type="html" xml:base="https://heldesouky.xyz//blog/The-Ultimate-Guide-for-the-ICPC">&lt;h2 id=&quot;the-ultimate-guide-for-the-icpc&quot;&gt;The Ultimate Guide for the ICPC&lt;/h2&gt;
+
+&lt;p&gt;Resources to prepare yourself for the The International Collegiate
+Programming Contest (ICPC) or any competitive programming contest&lt;/p&gt;
+
+&lt;h3 id=&quot;the-ultimate-guide-for-theicpc&quot;&gt;The Ultimate Guide for the ICPC&lt;/h3&gt;
+
+&lt;h4 id=&quot;resources-to-prepare-yourself-for-the-the-international-collegiate-programming-contest-icpc-or-any-competitive-programming-contest&quot;&gt;Resources to prepare yourself for the &lt;em&gt;The International Collegiate Programming Contest (ICPC) or any competitive programming contest&lt;/em&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*pLRMNXqhog5u8KBfRynb2A.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Photo by &lt;a href=&quot;https://unsplash.com/@arielbeagar?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Ariel
+Besagar&lt;/a&gt;
+on &lt;a href=&quot;https://unsplash.com/s/photos/trophy?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-theicpc&quot;&gt;What is the ICPC?&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The ICPC, the ‘International Collegiate Programming Contest,’ is an
+extra-curricular, competitive programming sport for students at
+universities around the world. ICPC competitions provide gifted
+students opportunities to interact, demonstrate, and improve their
+teamwork, programming, and problem-solving process. The ICPC is a
+global platform for academia, industry, and community to shine the
+spotlight on and raise the aspirations of the next generation of
+computing professionals as they pursue
+excellence.” — &lt;a href=&quot;https://en.wikipedia.org/wiki/International_Collegiate_Programming_Contest&quot;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;/h4&gt;
+
+&lt;p&gt;I’m by no mean a top coder or a world finalist. I just wanted to share
+the resources I found helpful, and if you follow them, hopefully, you
+will be an ICPC world finalist.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+
+&lt;p&gt;I really like competitive programming, and I really want to be someone
+like &lt;a href=&quot;https://en.wikipedia.org/wiki/Gennady_Korotkevich&quot;&gt;Gennady
+Korotkevich&lt;/a&gt;. He is
+truly a living legend in the field of competitive programming.&lt;/p&gt;
+
+&lt;p&gt;Anyways, let’s get into the details …&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;the-steps-to-be-a-good-competitive-programmer&quot;&gt;The Steps to be a Good Competitive Programmer&lt;/h3&gt;
+
+&lt;p&gt;It’s really simple: There are no tricks and there’s no short way … all
+you need is dedication and a goal, and you are all set.&lt;/p&gt;
+
+&lt;p&gt;First, you will need to be familiar with at least one of the following
+programming languages: Python, Java, C, or C++.&lt;/p&gt;
+
+&lt;p&gt;Secondly, you will need to study all of the different topics about data
+structures and algorithms.&lt;/p&gt;
+
+&lt;p&gt;Finally, do a lot of problems … &lt;em&gt;a lot!&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;topics&quot;&gt;Topics&lt;/h3&gt;
+
+&lt;p&gt;These are the main topics that should be done thoroughly.&lt;/p&gt;
+
+&lt;h4 id=&quot;number-theory&quot;&gt;Number theory&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/basic-and-extended-euclidean-algorithms/&quot;&gt;Euclidian and extended Euclidian
+algorithm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/&quot;&gt;Modular arithmetic and modular
+inverse&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Prime generation
+(&lt;a href=&quot;https://www.geeksforgeeks.org/sieve-of-eratosthenes/&quot;&gt;sieve&lt;/a&gt; and
+&lt;a href=&quot;https://www.geeksforgeeks.org/segmented-sieve/&quot;&gt;segmented sieve&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mathworld.wolfram.com/FermatsLittleTheorem.html&quot;&gt;Fermat’s
+theorem&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/eulers-totient-function/&quot;&gt;Euler’s Totient
+function&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/primality-test-set-3-miller-rabin/&quot;&gt;Miller Rabin primality
+test&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.google.com/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=24&amp;amp;cad=rja&amp;amp;uact=8&amp;amp;ved=2ahUKEwjo-KCtq-fkAhVjposKHbzvAkYQFjAXegQIBBAB&amp;amp;url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fchinese-remainder-theorem-set-1-introduction%2F&amp;amp;usg=AOvVaw0dK78WjQciMCC-w29rYlqC&quot;&gt;Chinese remainder
+theorem&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/compute-ncr-p-set-2-lucas-theorem/&quot;&gt;Lucas
+theorem&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;greedy-algorithms&quot;&gt;Greedy algorithms&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/greedy-algorithms-set-1-activity-selection-problem/&quot;&gt;Activity-selection
+problem&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/greedy-algorithms-set-2-kruskals-minimum-spanning-tree-mst/&quot;&gt;Kruskal’s
+algorithm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/greedy-algorithms-set-5-prims-minimum-spanning-tree-mst-2/&quot;&gt;Prim’s
+algorithm&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;binary-search&quot;&gt;Binary search&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/&quot;&gt;Topcoder binary
+search&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/binary-search/&quot;&gt;Binary search&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/the-ubiquitous-binary-search-set-1/&quot;&gt;Ubiquitous binary
+search&lt;/a&gt; — get
+a grasp of discrete and continuous binary searches&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;data-structures&quot;&gt;Data structures&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/data-structures/linked-list/&quot;&gt;Linked
+lists&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/binary-search-tree-data-structure/&quot;&gt;Binary-search
+tree&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/&quot;&gt;Binary-indexed tree or Fenwick
+tree&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query/&quot;&gt;Segment
+Tree&lt;/a&gt;
+(&lt;a href=&quot;https://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query/&quot;&gt;RMQ&lt;/a&gt;,
+&lt;a href=&quot;https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/&quot;&gt;range
+sum,&lt;/a&gt;and&lt;a href=&quot;https://www.geeksforgeeks.org/lazy-propagation-in-segment-tree/&quot;&gt;lazy
+propagation&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/&quot;&gt;Red-Black
+trees&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/hashing/&quot;&gt;Hashing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/data-structures/&quot;&gt;Extensive list of data
+structures&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;graph-algorithms&quot;&gt;&lt;strong&gt;Graph algorithms&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/&quot;&gt;Breadth-first search
+(BFS)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/&quot;&gt;Depth-first search
+(DFS)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/greedy-algorithms-set-6-dijkstras-shortest-path-algorithm/&quot;&gt;Shortest path from source to all vertices
+(Dijkstra&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/dynamic-programming-set-16-floyd-warshall-algorithm/&quot;&gt;Shortest path from every vertex to every other vertex (Floyd
+Warshall&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/greedy-algorithms-set-5-prims-minimum-spanning-tree-mst-2/&quot;&gt;Minimum spanning tree
+(Prim&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/greedy-algorithms-set-2-kruskals-minimum-spanning-tree-mst/&quot;&gt;Minimum spanning tree
+(Kruskal&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/topological-sorting/&quot;&gt;Topological
+Sort&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/johnsons-algorithm/&quot;&gt;Johnson’s
+algorithm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.test.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/&quot; title=&quot;Permalink to Articulation Points (or Cut Vertices) in a Graph&quot;&gt;Articulation points (or cut vertices) in a
+graph&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.test.geeksforgeeks.org/bridge-in-a-graph/&quot; title=&quot;Permalink to Bridges in a graph&quot;&gt;Bridges in a
+graph&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.test.geeksforgeeks.org/category/graph/&quot;&gt;All graph
+algorithms&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;string-algorithms&quot;&gt;&lt;strong&gt;String algorithms&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;Learning library functions for string actually proves very helpful.
+(C++: See
+&lt;a href=&quot;https://www.geeksforgeeks.org/c-string-class-and-its-applications/&quot;&gt;this&lt;/a&gt;,
+&lt;a href=&quot;https://www.geeksforgeeks.org/stdstring-class-in-c/&quot;&gt;this&lt;/a&gt;, &lt;a href=&quot;http://quiz.geeksforgeeks.org/string-class-in-java/&quot;&gt;String in
+Java&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/searching-for-patterns-set-2-kmp-algorithm/&quot;&gt;KMP
+algorithm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/searching-for-patterns-set-3-rabin-karp-algorithm/&quot;&gt;Rabin
+karp&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/z-algorithm-linear-time-pattern-searching-algorithm/&quot;&gt;Z’s
+algorithm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/aho-corasick-algorithm-pattern-searching/&quot;&gt;Aho-Corasick string
+matching&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/suffix-array-set-1-introduction/&quot;&gt;Suffix
+arrays&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/trie-insert-and-search/&quot;&gt;Trie&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/searching-for-patterns-set-5-finite-automata/&quot;&gt;Finite
+automata&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;dynamic-programming&quot;&gt;&lt;strong&gt;Dynamic programming&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/category/algorithm/dynamic-programming/&quot;&gt;Dynamic
+programming — GeeksforGeeks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.codechef.com/wiki/tutorial-dynamic-programming&quot;&gt;Dynamic
+Programming — Codechef&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Dynamic programming is quite important and can be infused and asked with
+various other topics. Some different types of DP concepts are:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Classic DP&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence/&quot;&gt;Longest-common
+subsequence&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/dynamic-programming-set-3-longest-increasing-subsequence/&quot;&gt;Longest-increasing
+subsequence&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance/&quot;&gt;Edit
+distance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum/&quot;&gt;Minimum
+partition&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/count-number-of-ways-to-cover-a-distance/&quot;&gt;Ways to cover a
+distance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/find-the-longest-path-in-a-matrix-with-given-constraints/&quot;&gt;Longest path in
+matrix&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/&quot;&gt;Subset-sum
+problem&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/dynamic-programming-set-31-optimal-strategy-for-a-game/&quot;&gt;Optimal strategy for a
+game&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/dynamic-programming-set-10-0-1-knapsack-problem/&quot;&gt;0–1 knapsack
+problem&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/dynamic-programming-set-34-assembly-line-scheduling/&quot;&gt;Assembly-line
+scheduling&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/tag/dynamic-programming/&quot;&gt;All DP
+algorithms&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;computational-geometry&quot;&gt;&lt;strong&gt;Computational geometry&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/convex-hull-set-1-jarviss-algorithm-or-wrapping/&quot;&gt;Convex-hull
+algorithms&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/category/algorithm/geometric/&quot;&gt;Geometric
+algorithms&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.lulu.com/shop/http://www.lulu.com/shop/steven-halim/competitive-programming-3paperback/product-21059906.html&quot;&gt;“Competitive Programming 3”&lt;/a&gt; This book is beyond great. I’m currently in the middle of it and I’m enjoying
+the problems and the book structure. I highly recommended it.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://codeforces.com/blog/entry/17842&quot;&gt;“The ‘Science’ of Training in Competitive Programming”&lt;/a&gt; In this
+blog,the author explains how to train for CP and what he did in order to
+be a good problem solver.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.quora.com/TopCoder/By-practicing-can-one-become-a-red-yellow-coder-at-Topcoder-despite-not-being-that-intelligent-I%E2%80%99m-a-gray-coder-and-really-want-to-excel-in-algorithmic-programming-Is-practice-the-only-factor-that-can-make-one-red-or-yellow&quot;&gt;How to be a red coder&lt;/a&gt;
+This Quora answer really goes deep into how to be a red coder and train
+efficiently.&lt;/p&gt;
+
+&lt;p&gt;By &lt;a href=&quot;https://medium.com/@hassaneldesouky&quot;&gt;Hassan El Desouky&lt;/a&gt; on
+&lt;a href=&quot;https://medium.com/p/407b7f6409dd&quot;&gt;September 19, 2019&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@hassaneldesouky/the-ultimate-guide-for-the-icpc-407b7f6409dd&quot;&gt;Canonical
+link&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="algorithm" /><category term="data-structure" /><category term="c++" /><category term="advice" /><category term="competitive-programming" /><category term="blogging" /><summary type="html">The Ultimate Guide for the ICPC</summary></entry><entry><title type="html">How I Created Apple’s Shortcuts Icon System</title><link href="https://heldesouky.xyz//blog/How-I-Created-Apple-s-Shortcuts-Icon-System" rel="alternate" type="text/html" title="How I Created Apple’s Shortcuts Icon System" /><published>2019-08-28T00:00:00+00:00</published><updated>2019-08-28T00:00:00+00:00</updated><id>https://heldesouky.xyz//blog/How-I-Created-Apple-s-Shortcuts-Icon-System</id><content type="html" xml:base="https://heldesouky.xyz//blog/How-I-Created-Apple-s-Shortcuts-Icon-System">&lt;h2 id=&quot;how-i-created-apples-shortcuts-icon-system&quot;&gt;How I Created Apple’s Shortcuts Icon System&lt;/h2&gt;
+
+&lt;p&gt;A step-by-step guide on implementing Apple’s Shortcuts Icons
+Customization system.&lt;/p&gt;
+
+&lt;p&gt;In this tutorial, I will share a step-by-step guide on implementing
+Apple’s Shortcuts Icons Customization system.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-i-created-apples-shortcuts-iconsystem&quot;&gt;How I Created Apple’s Shortcuts Icon System&lt;/h3&gt;
+
+&lt;h4 id=&quot;a-step-by-step-guide-on-implementing-apples-shortcuts-icons-customization-system&quot;&gt;A step-by-step guide on implementing Apple’s Shortcuts Icons Customization system.&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2560/1*LUayqJvpi3FJX8-sCHVkbA.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;introduction&quot;&gt;Introduction&lt;/h4&gt;
+&lt;p&gt;In this tutorial, I will share with you how I created the icon-creating
+system that I see in a lot of apps and I really liked what Apple did in
+their Shortcuts app. I have been wondering how do they create such a
+thing… how you can customize an icon for a list and not just choose an
+already finished icon.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*KFiCOH0TlpHWvvhg0Amjgg.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Creating Icons&lt;/p&gt;
+
+&lt;p&gt;Of course, what I did is that I googled a lot but I didn’t go anywhere.
+Therefore, I decided to make my own!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Note: I know that my approach is far away from perfect and, of course,
+I can improve it a lot better. So, please if you know a better
+approach share it with me.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;in-this-article-we-will-gothrough&quot;&gt;In this article, we will go through:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The starter project&lt;/li&gt;
+  &lt;li&gt;Describing my approach&lt;/li&gt;
+  &lt;li&gt;Adding CoreDataCreating a CoreData Manager model&lt;/li&gt;
+  &lt;li&gt;Rely on the CoreData model&lt;/li&gt;
+  &lt;li&gt;Implement CreateListController&lt;/li&gt;
+  &lt;li&gt;Implement ListIconController&lt;/li&gt;
+  &lt;li&gt;Updating the main ViewController&lt;/li&gt;
+  &lt;li&gt;The final result and a Conclusion&lt;/li&gt;
+  &lt;li&gt;Resources&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;the-starterproject&quot;&gt;The Starter Project&lt;/h3&gt;
+
+&lt;p&gt;Previously I tried to create custom collectionView like Apple’s
+Shortcuts app. Then I wrote an article about it and you can read it
+&lt;a href=&quot;https://blog.prototypr.io/create-custom-collectionview-like-apples-shortcuts-app-in-code-29b1272347e&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Pull the repo from GitHub and let’s start.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/HassanElDesouky/ShortcutsCollectionView&quot;&gt;&lt;strong&gt;HassanElDesouky/ShortcutsCollectionView&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Run the project in Xcode and you will be starting with something like
+this.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*_3PpBUQPNN0mC4Kd8LRgkQ.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;my-approach&quot;&gt;My approach&lt;/h3&gt;
+&lt;p&gt;In order to achieve what I was looking for I manly relyed on
+Notification Pattern to pass through the selected icons and colors.&lt;/p&gt;
+
+&lt;p&gt;From passing through the icons and background colors I concatenated a
+view from that info and then rendered the UIView to a UIImage.&lt;/p&gt;
+
+&lt;p&gt;I also used CoreData to store all of the information about the List.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.paypal.me/HassanElDesouky?locale.x=en_US&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*4N4u_wPLkqco5f1S1sX5tA.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;coredata&quot;&gt;CoreData&lt;/h3&gt;
+&lt;p&gt;I was learning CoreData so I choose to use it as the database for my app
+as it’s really easy to use and to add in your existing projects.&lt;/p&gt;
+
+&lt;p&gt;From &lt;strong&gt;File&lt;/strong&gt; choose &lt;strong&gt;New File&lt;/strong&gt; &lt;em&gt;or&lt;/em&gt; by using the keyboard &lt;strong&gt;⌘+N&lt;/strong&gt;, then
+choose &lt;strong&gt;Data Model&lt;/strong&gt; under the &lt;strong&gt;Core Data&lt;/strong&gt; tab. Name it &lt;strong&gt;Model&lt;/strong&gt; and
+click &lt;em&gt;Create&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Add a new &lt;strong&gt;Entity&lt;/strong&gt; let’s call it List then I’ll add a few attributes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; of type &lt;strong&gt;String&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;firstColor&lt;/code&gt; of type &lt;strong&gt;Binary Data&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;secondColor&lt;/code&gt;of type &lt;strong&gt;Binary Data&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;imageData&lt;/code&gt;of type &lt;strong&gt;Binary Data&lt;/strong&gt; and in the attributes inspector check on &lt;strong&gt;Allows External Storage&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*uXi0W9DgNmKsnRnZiRoN8Q.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The CoreData model with the List entity and its attributes&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;coredata-manager&quot;&gt;CoreData Manager&lt;/h3&gt;
+
+&lt;p&gt;To make things easy I’ll make a CoreDataManager struct to deal with
+CoreData easier.&lt;/p&gt;
+
+&lt;p&gt;From &lt;strong&gt;File&lt;/strong&gt; choose &lt;strong&gt;New File&lt;/strong&gt; &lt;em&gt;or&lt;/em&gt; by using the keyboard &lt;strong&gt;⌘+N&lt;/strong&gt;, then
+choose &lt;strong&gt;Swift File&lt;/strong&gt;. Name it &lt;strong&gt;CoreDataManager&lt;/strong&gt; and click &lt;em&gt;Create&lt;/em&gt;.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/HassanElDesouky/7a138b96dfbaaf3ec21bb298c1ff9ddf.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;By the help of this model, I can get the &lt;code class=&quot;highlighter-rouge&quot;&gt;context &lt;/code&gt;of the CoreData, get all of the lists.&lt;/p&gt;
+
+&lt;h3 id=&quot;rely-oncoredata&quot;&gt;Rely on CoreData&lt;/h3&gt;
+
+&lt;p&gt;We will need to make some changes in order to fully rely on CoreData. Go
+to &lt;strong&gt;ViewController.swift&lt;/strong&gt; and add a new &lt;em&gt;Property:&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var lists = [List]()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In &lt;em&gt;collectionView:numberOfItemsInSection:&lt;/em&gt; method change return
+statement from &lt;code class=&quot;highlighter-rouge&quot;&gt;3&lt;/code&gt; to
+&lt;code class=&quot;highlighter-rouge&quot;&gt;lists.count&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, go to &lt;strong&gt;MainCollectionViewCell.swift&lt;/strong&gt; and add a list &lt;em&gt;Property&lt;/em&gt;,
+remove the gradients methods so the &lt;em&gt;setup method&lt;/em&gt; will match the
+following.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/HassanElDesouky/2e9d014b081c110241bb032788382af2.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Go back to &lt;strong&gt;ViewController.swift&lt;/strong&gt; and in &lt;em&gt;collectionView:cellForItemAt:&lt;/em&gt; method update it; to just pass the list.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/HassanElDesouky/859c810f5a10e99e53b3b476a6c2c24a.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Now after we defined the data source for our lists, let’s move to actually create a new list.&lt;/p&gt;
+
+&lt;h3 id=&quot;create-alist&quot;&gt;Create a List&lt;/h3&gt;
+
+&lt;p&gt;I will create a new Storyboard. So again from &lt;strong&gt;File&lt;/strong&gt; choose &lt;strong&gt;New File&lt;/strong&gt; &lt;em&gt;or&lt;/em&gt; by using the keyboard &lt;strong&gt;⌘+N&lt;/strong&gt;, then choose &lt;strong&gt;Storyboard&lt;/strong&gt; I will name it &lt;strong&gt;CreateList&lt;/strong&gt; then click &lt;em&gt;create.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Add a TableViewController with the following attributes &lt;strong&gt;static cells&lt;/strong&gt; and &lt;strong&gt;grouped&lt;/strong&gt; then in the first and the only section make them
+&lt;strong&gt;2 rows&lt;/strong&gt;. In the first row add a &lt;strong&gt;TextField&lt;/strong&gt; and in the second row
+and a &lt;strong&gt;Label&lt;/strong&gt; and an &lt;strong&gt;ImageView,&lt;/strong&gt; and change its &lt;em&gt;accessory&lt;/em&gt; to &lt;strong&gt;Disclosure Indicator.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Add a &lt;strong&gt;NavigationItem&lt;/strong&gt; and both a &lt;strong&gt;LeftBarButton&lt;/strong&gt; and a &lt;strong&gt;RightBarButton.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*wVmFgCjfSpyGGuoyb4p0wA.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Create a new &lt;strong&gt;Swift File&lt;/strong&gt; let’s call it &lt;strong&gt;CreateListController&lt;/strong&gt; and make it inherits from &lt;code class=&quot;highlighter-rouge&quot;&gt;UITableViewController&lt;/code&gt; Then go again to the storyboard and set the custom class and the &lt;strong&gt;Storyboard ID&lt;/strong&gt; to &lt;strong&gt;CreateListController.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For testing purposes, go to &lt;strong&gt;ViewController.swift&lt;/strong&gt; and in &lt;strong&gt;addNewList&lt;/strong&gt; method push our new controller. You will see that the new controller is pushed but of course, nothing is working yet.&lt;/p&gt;
+
+&lt;p&gt;Create a &lt;code class=&quot;highlighter-rouge&quot;&gt;protocol&lt;/code&gt; call it CreateListControllerDelegate.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/HassanElDesouky/c22070444769ed371d0a0ea487a38f37.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Create outlets for the bar button item, text field, and icon image view.
+Also, create actions for both bar button items, and create the delegate
+property.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/HassanElDesouky/f38c051f1c5d67116d44bb5b4e51f57d.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Connect the delegate in &lt;strong&gt;addNewList&lt;/strong&gt; method inside of &lt;strong&gt;ViewController.swift&lt;/strong&gt; file.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/HassanElDesouky/a7130407237547a47b2a89c77abacb82.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Connecting the delegate and pushing the CreateList view controller&lt;/p&gt;
+
+&lt;p&gt;Then handle empty fields like if the text field is empty the done bar
+button should be disabled.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/HassanElDesouky/8de1de200c0f3b99313ecefab4d7666b.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then, of course, to save all of the changes you would have to implement
+creating a new list and storing it in CoreData.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/HassanElDesouky/98c9c67979dc74a077119c92150db121.js&quot;&gt;&lt;/script&gt;
+
+&lt;h4 id=&quot;create-icon-controller&quot;&gt;Create icon controller&lt;/h4&gt;
+
+&lt;p&gt;If you took a look at the original Shortcuts app in the icon creating
+screen. You will see that.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*tsXMsLcn4O8tch7hQfbCsA.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;IconView&lt;/strong&gt;: you will construct the icon and see your result in that
+view.
+&lt;strong&gt;SegmentedControl&lt;/strong&gt;: you will use the segmented control to switch
+between the views in the container view.
+&lt;strong&gt;ContainerView&lt;/strong&gt;: in this view, you will select your desired color,
+glyph, or choose an image.&lt;/p&gt;
+
+&lt;p&gt;Therefore, I created a similar screen in the &lt;strong&gt;CreateList.storyboard&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/1200/1*osc3DrjFacLoMQRfujSf6w.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Create four new Swift files name them &lt;strong&gt;ListIconController&lt;/strong&gt;, &lt;strong&gt;IconColorController&lt;/strong&gt;, &lt;strong&gt;IconGlyphController&lt;/strong&gt;, and &lt;strong&gt;IconOtherController&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;iniconothercontroller&quot;&gt;&lt;strong&gt;In&lt;/strong&gt;IconOtherController&lt;/h4&gt;
+
+&lt;p&gt;You will need to handle selecting a photo and passing the photo using
+&lt;strong&gt;Notifications&lt;/strong&gt; to the &lt;strong&gt;ListIconController.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/HassanElDesouky/e12539517dc5f53b5e731ed6437fbee3.js&quot;&gt;&lt;/script&gt;
+
+&lt;h4 id=&quot;in-iconcolorcontroller&quot;&gt;In &lt;strong&gt;IconColorController&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;You will show a collection view and in that collection view you will
+show your colors and when choosing a color you will also pass it using
+&lt;strong&gt;Notifications&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/HassanElDesouky/7a9ceaed0d0e957e724f847664293f20.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Also, don’t forget to create a &lt;strong&gt;collectionViewCell&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/HassanElDesouky/5237beb600f334bdc3a82f441c699034.js&quot;&gt;&lt;/script&gt;
+
+&lt;h4 id=&quot;in-iconglyphcontroller&quot;&gt;In &lt;strong&gt;IconGlyphController&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;First, you will need to add the images to your project. I downloaded a
+free pack from &lt;a href=&quot;http://flaticon.com&quot;&gt;FlatIcon&lt;/a&gt; and then dragged them and
+added them to the project folder.&lt;/p&gt;
+
+&lt;p&gt;Following the same pattern as of selecting an icon and selecting a
+background color. In choosing a glyph for your list you will be passing
+it by &lt;strong&gt;Notifications&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/HassanElDesouky/3cf6b3835495c5ed19c309746feebd8a.js&quot;&gt;&lt;/script&gt;
+
+&lt;h4 id=&quot;in-listiconcontroller&quot;&gt;&lt;strong&gt;In ListIconController&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;You will need to unwrap the information coming from the notification
+observers.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/HassanElDesouky/1d202b490f4796dc63e8a3ed991c788d.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;You will need to handle changing views based on the segmented
+controller.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/HassanElDesouky/aa258f4a48cb6666e9368df3a0bf8a14.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;And, of course, saving the data to CoreData and rendering the UIView to
+an image. And maybe check if there’s an already saved image you will
+load it instead of a new one.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/HassanElDesouky/c4aa54e363f3da508a190bdfe5ea1fd7.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Also, you will need to create an icon view that will have a gradient
+background.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/HassanElDesouky/bda06c338e472151439223410c2c7fa3.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Update your Extension file to match the following:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/HassanElDesouky/c40f6102ca5f77c83ea9d3957a26e0a5.js&quot;&gt;&lt;/script&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you are interested in knowing how I saved UIColor with CoreData. I
+used an approach similar to what I used in my previous article — &lt;a href=&quot;https://heldesouky.xyz/blog/Save-UIColor-With-UserDefaults-in-Swift-5&quot;&gt;Save UIColor With UserDefaults in Swift 5&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;main-viewcontroller&quot;&gt;Main &lt;strong&gt;ViewController&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Finally, go to &lt;strong&gt;ViewController.swift&lt;/strong&gt; and you will need to update a
+couple of things.&lt;/p&gt;
+
+&lt;p&gt;In both &lt;strong&gt;viewDidLoad&lt;/strong&gt; and &lt;strong&gt;viewWillAppear&lt;/strong&gt; methods, you will need to
+add the following line in order to fetch the list objects from
+&lt;em&gt;CoreData&lt;/em&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;self.lists = CoreDataManager.shared.fetchLists()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You will also need to confirm to the &lt;strong&gt;CreateListControllerDelegate&lt;/strong&gt; and
+implement the &lt;code class=&quot;highlighter-rouge&quot;&gt;didAddList()&lt;/code&gt; function.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/HassanElDesouky/6895d9028f28f6855ddd9700c64a5b19.js&quot;&gt;&lt;/script&gt;
+
+&lt;h3 id=&quot;the-final-result-and-a-conclusion&quot;&gt;The final result and a Conclusion&lt;/h3&gt;
+
+&lt;p&gt;Finally, after a lot of work — for me at least. I managed to achieve my
+goal of making an icon creating system. It really comes very handily in
+a lot of application and it gives the user great user experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*H_eN7rlHYNvQvfuLZNUurQ.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The end result&lt;/p&gt;
+
+&lt;p&gt;I’m really happy with my end result maybe there was an easier way of
+doing the same task. So if you have any feedback please add a comment
+below. I do really appreciate it.&lt;/p&gt;
+
+&lt;p&gt;Also, remember If you aren’t a designer you can also buy some great &lt;a href=&quot;https://www.iosapptemplates.com/&quot;&gt;iOS App Templates&lt;/a&gt; and if you are more
+interested in &lt;a href=&quot;https://www.instamobile.io/&quot;&gt;React Native App Templates&lt;/a&gt;
+you can buy them from here they have a really great collection.&lt;/p&gt;
+
+&lt;h4 id=&quot;improvements&quot;&gt;Improvements&lt;/h4&gt;
+
+&lt;p&gt;There’s a big room for improvements like for example improving or
+refining the code or adding new features like:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Editing a list&lt;/li&gt;
+  &lt;li&gt;Deleting a list&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Therefore, please feel free to pull the repo from GitHub and add when
+you are finished adding features to the project submit a PR. PRs are
+very welcome.&lt;/p&gt;
+
+&lt;h4 id=&quot;github-project&quot;&gt;GitHub Project&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/HassanElDesouky/AppleShortcuts&quot;&gt;&lt;strong&gt;HassanElDesouky/AppleShortcuts&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And special thanks to &lt;a href=&quot;https://twitter.com/MoElnaggar14&quot;&gt;Mohammed ElNaggar&lt;/a&gt; for helping out!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I think this article will help a lot of people. Therefore, I’m making it
+free. But please if you can tip me I will be so grateful. I’m saving to
+get an Apple Developer paid account so I can start uploading apps to the
+AppStore and tackle with early betas and a lot of paid only technologies
+like CloudKit.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.paypal.me/HassanElDesouky?locale.x=en_US&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*8RA2giRIK2fXze7e57361Q.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;By &lt;a href=&quot;https://medium.com/@hassaneldesouky&quot;&gt;Hassan El Desouky&lt;/a&gt; on &lt;a href=&quot;https://medium.com/p/826eabd44886&quot;&gt;August
+28, 2019&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@hassaneldesouky/apples-shortcuts-826eabd44886&quot;&gt;Canonical
+link&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="apple" /><category term="iOS" /><category term="tutorial" /><summary type="html">How I Created Apple’s Shortcuts Icon System</summary></entry><entry><title type="html">Save UIColor With UserDefaults in Swift 5</title><link href="https://heldesouky.xyz//blog/Save-UIColor-With-UserDefaults-in-Swift-5" rel="alternate" type="text/html" title="Save UIColor With UserDefaults in Swift 5" /><published>2019-07-22T00:00:00+00:00</published><updated>2019-07-22T00:00:00+00:00</updated><id>https://heldesouky.xyz//blog/Save-UIColor-With-UserDefaults-in-Swift-5</id><content type="html" xml:base="https://heldesouky.xyz//blog/Save-UIColor-With-UserDefaults-in-Swift-5">&lt;h2 id=&quot;save-uicolor-with-userdefaults-in-swift-5&quot;&gt;Save UIColor With UserDefaults in Swift 5&lt;/h2&gt;
+
+&lt;p&gt;I wanted to save UIColor into UserDefaults so I googled it and I
+couldn’t find any updated resource to Swift 5. Therefore, I came up
+with…&lt;/p&gt;
+
+&lt;h3 id=&quot;save-uicolor-with-userdefaults-in-swift5&quot;&gt;Save UIColor With UserDefaults in Swift 5&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*tQaKld0tddpG8xR6ERbMsA.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I wanted to save &lt;code class=&quot;highlighter-rouge&quot;&gt;UIColor&lt;/code&gt; into &lt;code class=&quot;highlighter-rouge&quot;&gt;UserDefaults&lt;/code&gt; so I googled it and couldn’t find any updated resource for &lt;a href=&quot;https://developer.apple.com/swift/&quot;&gt;Swift&lt;/a&gt; 5. Therefore, I came up with my own solution. Hopefully, it’s helpful.&lt;/p&gt;
+
+&lt;p&gt;There’s no straight way to save &lt;code class=&quot;highlighter-rouge&quot;&gt;UIColor&lt;/code&gt; with &lt;code class=&quot;highlighter-rouge&quot;&gt;UserDefaults&lt;/code&gt; so we will have to manipulate the type a bit.&lt;/p&gt;
+
+&lt;p&gt;We are going to convert &lt;code class=&quot;highlighter-rouge&quot;&gt;UIColor&lt;/code&gt; to
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Data &lt;/code&gt;and save it as
+&lt;code class=&quot;highlighter-rouge&quot;&gt;any?&lt;/code&gt;. To convert the type of
+&lt;code class=&quot;highlighter-rouge&quot;&gt;UIColor&lt;/code&gt;, we will need to use a special
+method called &lt;code class=&quot;highlighter-rouge&quot;&gt;NSKeyedArchiver&lt;/code&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“&lt;code class=&quot;highlighter-rouge&quot;&gt;NSKeyedArchiver&lt;/code&gt;, a concrete
+subclass of &lt;code class=&quot;highlighter-rouge&quot;&gt;NSCoder&lt;/code&gt;,
+provides a way to encode objects (and scalar values) into an
+architecture-independent format that can be stored in a file. When you
+archive a set of objects, the class information and instance variables
+for each object are written to the archive. The companion class
+&lt;code class=&quot;highlighter-rouge&quot;&gt;NSKeyedUnarchiver&lt;/code&gt; decodes
+the data in an archive and creates a set of objects equivalent to the
+original set.”&lt;em&gt; — Apple&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Therefore, let’s make an extension to the &lt;code class=&quot;highlighter-rouge&quot;&gt;UserDefaults&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;We’ve converted &lt;code class=&quot;highlighter-rouge&quot;&gt;UIColor&lt;/code&gt; to
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Data&lt;/code&gt; and then saved it as
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Any?&lt;/code&gt;. Then, we used the unarchiver to
+unarchive &lt;code class=&quot;highlighter-rouge&quot;&gt;data &lt;/code&gt;and return the
+&lt;code class=&quot;highlighter-rouge&quot;&gt;UIColor&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Also, If you aren’t a designer you can also buy some great &lt;a href=&quot;https://www.iosapptemplates.com/&quot;&gt;iOS App
+Templates&lt;/a&gt; and if you are more
+interested in &lt;a href=&quot;https://www.instamobile.io/&quot;&gt;React Native App Templates&lt;/a&gt;
+you can buy them from here they have a really great collection.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.hackingwithswift.com/example-code/system/how-to-save-and-load-objects-with-nskeyedarchiver-and-nskeyedunarchiver&quot;&gt;How to save and load objects with NSKeyedArchiver and
+NSKeyedUnarchiver&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sitepoint.com/store-uicolor-with-userdefaults-in-swift-3/&quot;&gt;Store UIColor with UserDefaults in Swift
+3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.iosapptemplates.com/&quot;&gt;iOS App Templates&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.instamobile.io/&quot;&gt;React Native App Templates&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;By &lt;a href=&quot;https://medium.com/@hassaneldesouky&quot;&gt;Hassan El Desouky&lt;/a&gt; on &lt;a href=&quot;https://medium.com/p/951ef1aa88e8&quot;&gt;July 22,
+2019&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@hassaneldesouky/save-uicolor-with-userdefaults-in-swift-5-951ef1aa88e8&quot;&gt;Canonical
+link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Exported from &lt;a href=&quot;https://medium.com&quot;&gt;Medium&lt;/a&gt; on February 29, 2020.&lt;/p&gt;</content><author><name></name></author><category term="apple" /><category term="iOS" /><category term="tutorial" /><summary type="html">Save UIColor With UserDefaults in Swift 5</summary></entry><entry><title type="html">iOS Memory Management in Under 6 Minutes</title><link href="https://heldesouky.xyz//blog/iOS-Memory-Management-in-Under-6-Minutes" rel="alternate" type="text/html" title="iOS Memory Management in Under 6 Minutes" /><published>2019-07-04T00:00:00+00:00</published><updated>2019-07-04T00:00:00+00:00</updated><id>https://heldesouky.xyz//blog/iOS-Memory-Management-in-Under-6-Minutes</id><content type="html" xml:base="https://heldesouky.xyz//blog/iOS-Memory-Management-in-Under-6-Minutes">&lt;h2 id=&quot;ios-memory-management-in-under-6-minutes&quot;&gt;iOS Memory Management in Under 6 Minutes&lt;/h2&gt;
+
+&lt;p&gt;Everything you should know about ARC in old good Objective-C.&lt;/p&gt;
+
+&lt;h3 id=&quot;ios-memory-management-in-under-6minutes&quot;&gt;iOS Memory Management in Under 6 Minutes&lt;/h3&gt;
+
+&lt;h4 id=&quot;what-you-should-know-about-arc-in-old-good-objective-c&quot;&gt;What you should know about ARC in old good Objective-C&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2560/1*nkLi2YLBO3xys_dehSXoQw.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the last couple of days, I was searching more on memory management in
+iOS. It was a kind of a hard topic for me to understand in Swift.
+Therefore, I decided to go a little deeper in old good Objective-C — as
+I’m learning it already, to understand memory management more and get an
+in-depth understanding of that topic. Like, how was is it before the
+ARC? What happened after it? And what is the difference between ARC and
+Garbage Collector?… etc.&lt;/p&gt;
+
+&lt;h4 id=&quot;introduction&quot;&gt;Introduction&lt;/h4&gt;
+
+&lt;p&gt;When you start working with objects, you will notice an interesting
+thing.&lt;/p&gt;
+
+&lt;p&gt;Objects are more demanding on memory than primitive types like integers
+and floats. This remains true whether these objects are from your own
+classes or they are objects you make from classes in any of the Apple
+frameworks.&lt;/p&gt;
+
+&lt;p&gt;Luckily we don’t have to worry about working manually with memory
+addresses and manually allocating or deallocating areas of memory (which
+is still true for some languages). Instead in Objective-C, we use
+something called reference counting.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.paypal.me/HassanElDesouky?locale.x=en_US&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*4N4u_wPLkqco5f1S1sX5tA.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;what-does-reference-countingmean&quot;&gt;What does reference counting mean?&lt;/h4&gt;
+
+&lt;p&gt;When your application starts, an area of memory became available for
+your objects. So you create an object and an area of memory is claimed
+for that object. Now, the variable that holds the object is a pointer to
+that object. A pointer to an area of memory to be exact. What happens
+under the hood is that when the object was created it’s been given
+what’s called a &lt;strong&gt;retain count&lt;/strong&gt; or a &lt;strong&gt;reference count&lt;/strong&gt; and it
+represents the number of owners for a particular object. Therefore, we
+can imagine it to be one, as you see on the image below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*B0Qm_tMY5NpfXA8rwyoiDA.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The variable that called var is a pointer to a block of memory. So, in
+your program, you work with that pointer and call methods on it as long
+as you want. But when you arrive at the end of the code block. This
+variable is no longer reachable or accessible by any part of the
+program. The &lt;strong&gt;retain count&lt;/strong&gt; goes again to zero because there’s nothing
+pointing to that block of memory now. And when the &lt;strong&gt;retain count&lt;/strong&gt; become zero the runtime engine says, here’s a block of memory
+that no one cares about. Therefore, it will release this block of memory
+and make it available to other objects to use.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-might-gowrong&quot;&gt;What might go wrong?&lt;/h4&gt;
+
+&lt;p&gt;The only issue here can be in situations when you are creating objects
+and passing them around from one place to another. So it’s not clear
+that the pointer is still in scope or not. And up until 2011 — when
+&lt;strong&gt;ARC&lt;/strong&gt; (&lt;em&gt;Automatic Reference Counting&lt;/em&gt;) was added, you had to write
+statements on when you were finished using that object.&lt;/p&gt;
+
+&lt;h4 id=&quot;before-arc&quot;&gt;Before ARC&lt;/h4&gt;
+
+&lt;p&gt;Before ARC was added to Objective-C we would have to do something like
+this&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    MyClass *myObject = [[MyClass alloc] init];[
+    myObject myMethod]; // call methods... 
+    // doing some stuff with the object
+    [myObject release]; // releasing the object
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We’d write a little bit of code to create an object. It would be
+created. We’d call methods of that object. But at some point, we would
+have to actually explicitly call a &lt;code class=&quot;highlighter-rouge&quot;&gt;release&lt;/code&gt; statement. And that would be what was responsible for
+taking a retain count down.&lt;/p&gt;
+
+&lt;p&gt;This is not a problem with a small number of objects. But when you had
+hundreds or thousands of objects being created, manipulated, used as
+parameters, passed from object to object… you had to keep track of them
+all. If you were passing an object from one area of your program to
+another, you might not even be sure if you could release it yet. Or if
+some other part of the program would take care of releasing it or might
+even release before you were done with it. So you could also write what
+was called, retain calls to that object. But you would still need to
+match any retain call up with an additional release call.&lt;/p&gt;
+
+&lt;p&gt;Basically, before ARC, you had to envision every possible scenario-logic
+that your application will go through to make sure that all of your
+objects’ lifetime is managed correctly. Not that easy.&lt;/p&gt;
+
+&lt;h4 id=&quot;after-arc&quot;&gt;After ARC&lt;/h4&gt;
+
+&lt;p&gt;Luckily, when using ARC you are no longer need to use
+&lt;code class=&quot;highlighter-rouge&quot;&gt;release&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;autorelease&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;retain&lt;/code&gt; calls. But it’s
+important to understand the dangers of incorrectly writing this code.&lt;/p&gt;
+
+&lt;p&gt;One of the problems you could have is you might release too soon. You’d
+create an object, have a pointer to that area of memory, you’d call the
+methods, at some point you’d release it. But if you still had a valid
+pointer, there’s nothing that would actually stop you writing another
+line of code that tried to use it. This would be called a dangling
+pointer. The pointer existed, but what it was pointing to was no longer
+valid in memory and this could cause a crash.&lt;/p&gt;
+
+&lt;p&gt;The flip side of this is you might not release at all, you might create
+an object. Start calling methods of that object and then just allow the
+pointer to drop out of scope and disappear. But you never released the
+object so you just started claiming more and more memory, what was
+referred to as a &lt;strong&gt;memory leak&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;So having to write a lot of this code was certainly very prone to errors
+and issues. Now you might wonder if we’re using this new ARC feature why
+do I even mention the existence of things like release and retain calls.
+Because the idea of release and retain calls have not disappeared the
+language still does reference counting.&lt;/p&gt;
+
+&lt;p&gt;The language hasn’t changed. The difference is you simply don’t need to
+write the retain and release and autorelease calls because the compiler
+does. ARC is taking the fact that compilers have gotten so good, that
+any time you build your project, the compiler, in this case, llvm, which
+is what Xcode is using behind the scenes, is able to determine all the
+possible paths for your code. And it basically goes through your code
+synthesizing the write, retain, release, and autorelease calls that you
+would need.&lt;/p&gt;
+
+&lt;p&gt;What the compiler’s doing is effectively writing the same code you would
+write yourself if you were really, really, really good at writing memory
+management code.&lt;/p&gt;
+
+&lt;p&gt;ARC doesn’t physically change your source code files, but this is
+effectively what the compiler is doing when you compile a project, and
+you’re using ARC.&lt;/p&gt;
+
+&lt;h4 id=&quot;difference-between-garbage-collector-andarc&quot;&gt;&lt;strong&gt;Difference between Garbage Collector and ARC&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;ARC is a very different effect than having a garbage collector.
+Languages that use garbage collection are often what is referred to as
+&lt;em&gt;non-deterministic&lt;/em&gt;. It means that you can’t tell exactly when objects
+are being reclaimed because it’s being managed by the runtime by an
+external process. ARC allows us to be completely deterministic. The code
+controls when these objects are released. It’s just the code to release
+them has been written by the compiler, not by you. In fact, not only do
+you not write these calls when you’re using ARC, you can’t write these
+calls. If you try and do even the simple release call you’re going to
+get an error.&lt;/p&gt;
+
+&lt;h4 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h4&gt;
+
+&lt;p&gt;You need to be aware of the idea of retain or release. It is still
+what’s going on under the hood, but, certainly if you haven’t had to do
+it be thankful that you don’t have to do this anymore.&lt;/p&gt;
+
+&lt;p&gt;I’d love to hear more from you on that topic, and what do you think of
+going back to a language like Objective-C in order to understand a topic
+like memory management better? Have you ever done that before?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.paypal.me/HassanElDesouky?locale.x=en_US&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*8RA2giRIK2fXze7e57361Q.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;By &lt;a href=&quot;https://medium.com/@hassaneldesouky&quot;&gt;Hassan El Desouky&lt;/a&gt; on &lt;a href=&quot;https://medium.com/p/3be777f69b7e&quot;&gt;July 4,
+2019&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@hassaneldesouky/ios-memory-management-in-under-6-minutes-3be777f69b7e&quot;&gt;Canonical
+link&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="objective-c" /><category term="iOS" /><category term="memory-management" /><summary type="html">iOS Memory Management in Under 6 Minutes</summary></entry><entry><title type="html">14 Resources to help you get your iOS engineering job</title><link href="https://heldesouky.xyz//blog/14-Resources-to-help-you-get-your-iOS-engineering-job" rel="alternate" type="text/html" title="14 Resources to help you get your iOS engineering job" /><published>2019-06-11T00:00:00+00:00</published><updated>2019-06-11T00:00:00+00:00</updated><id>https://heldesouky.xyz//blog/14-Resources-to-help-you-get-your-iOS-engineering-job</id><content type="html" xml:base="https://heldesouky.xyz//blog/14-Resources-to-help-you-get-your-iOS-engineering-job">&lt;h2 id=&quot;14-resources-to-help-you-get-your-ios-engineering-job&quot;&gt;14 Resources to help you get your iOS engineering job&lt;/h2&gt;
+
+&lt;p&gt;How to pass iOS dev interview? I collected all useful resources to help
+you to prepare for the next interview and to get your first dream job…&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-get-the-first-job-as-an-ios-developer&quot;&gt;How to get the first job as an iOS developer&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2560/1*ytfYb0ynRQIzNoY3SHZh_A.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;https://undraw.co/&quot;&gt;unDraw&lt;/a&gt; for great illustrations!&lt;/p&gt;
+
+&lt;p&gt;If you already read &lt;a href=&quot;https://heldesouky.xyz/blog/How-I-failed-39-interviews-and-what-I-ve-learned&quot;&gt;my last article on interviewing&lt;/a&gt;,
+you know that I failed dozens of my previous interviews. In that
+article, I mentioned how to improve developers’ hard &amp;amp; soft skills in
+order to impress a potential employer.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Please notice, some of them may seem overkill for you, but I think
+the complexity of the interviews may vary depending on your skills and
+what company you are applying for.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As far as I know, there are two categories of questions companies ask in
+the interview:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Problem-solving questions&lt;/li&gt;
+  &lt;li&gt;iOS related question&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I will be going through each of those and providing you with the
+resources that I find helpful.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.paypal.me/HassanElDesouky?locale.x=en_US&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*4N4u_wPLkqco5f1S1sX5tA.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;problem-solving-questions&quot;&gt;&lt;strong&gt;Problem-solving questions&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;books&quot;&gt;Books&lt;/h4&gt;
+
+&lt;p&gt;The idea here is to solve as many problems as you can. I recommend two
+great books:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://amzn.to/2ta6IbM&quot;&gt;&lt;strong&gt;Cracking the Coding Interview&lt;/strong&gt;&lt;/a&gt;
+When you are preparing for interviews you should have a solid
+understanding of algorithms and data structures. After that, you
+should start with reading and doing the problems in Cracking the
+Coding Interview book.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://amzn.to/2WMDxJf&quot;&gt;&lt;strong&gt;Elements of Programming Interviews&lt;/strong&gt;&lt;/a&gt;
+You should start in Elements of Programming Interviews book after
+you have solved multiple questions from CtCI as the problems in this
+book are harder than those in the CtCI book.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;websites&quot;&gt;Websites&lt;/h4&gt;
+
+&lt;p&gt;You can also solve problems from websites like:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/&quot;&gt;&lt;strong&gt;LeetCode&lt;/strong&gt;&lt;/a&gt;
+It’s a great website for solving whiteboard like questions.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://GeeksforGeeks.org&quot;&gt;&lt;strong&gt;GeeksforGeeks&lt;/strong&gt;&lt;/a&gt;
+I had an interview with Google once, and I found out similar
+questions to those that I interviewed in on websites like
+&lt;a href=&quot;http://leetcode.com&quot;&gt;LeetCode&lt;/a&gt; and
+&lt;a href=&quot;http://GeeksforGeeks.org&quot;&gt;GeeksforGeeks&lt;/a&gt;. So, I really recommend
+checking those websites if you have a technical interview.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.hackerrank.com/interview/interview-preparation-kit&quot;&gt;HackerRank Interview Preparation Kit&lt;/a&gt;
+After I study a specific data structure. I solve problems from
+Cracking the Coding Interview book&lt;em&gt;.&lt;/em&gt;Then, I solve easy to medium
+problems about the topic in which I’m studying from LeetCode.
+Finally, I might solve a problem or tow about the same topic from
+HackerRank’s Interview Preparation Kit.\
+I do my best to try to solve from multiple sites as it opens my mind
+to different problems and strengthens my coding skills.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;mock-interviews&quot;&gt;Mock interviews&lt;/h4&gt;
+
+&lt;p&gt;I’ve used this website multiple times and I highly recommend this
+website for practicing mock interviews with a real person.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.pramp.com/invt/M6Vb0Gpz3gsGoJJ7Mo3P&quot;&gt;&lt;strong&gt;Pramp.com&lt;/strong&gt;&lt;/a&gt;
+It’s really recommended to practice the interview style with
+someone of your friends. You can practice mock interviews on this
+website. I really recommend this website, for practicing an
+interview-like setting.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ios-relatedquestion&quot;&gt;&lt;strong&gt;iOS related question&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;books-1&quot;&gt;Books&lt;/h4&gt;
+
+&lt;p&gt;I personally haven’t used these books but I heard some very good
+feedback about them.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.hackingwithswift.com/store/swift-coding-challenges&quot;&gt;Swift Coding Challenges&lt;/a&gt;
+Swift Coding Challenges book is one of &lt;a href=&quot;https://twitter.com/twostraws&quot;&gt;Paul
+Hudson&lt;/a&gt; great books. It sets you the
+task of solving the most common questions you’ll get asked at coding
+interviews. You get hints in case you get stuck, then complete
+solutions so you can compare your results.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://iosinterviewguide.com/&quot;&gt;&lt;strong&gt;The iOS Interview Guide&lt;/strong&gt;&lt;/a&gt;
+This guide will help you prepare for your next interview by
+systematizing the learning, helping you refresh what you already
+know, and giving you answers to common iOS interview questions.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Read&lt;/strong&gt; &lt;a href=&quot;https://www.objc.io/books/advanced-swift/&quot;&gt;Advanced Swift&lt;/a&gt;
+It’s a great book to learn more beyond the basics of Swift.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;videos&quot;&gt;Videos&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/seanallen_dev&quot;&gt;Sean Allen&lt;/a&gt; playlist helped me a lot
+in my interview, and honestly, I owe him a lot for that.&lt;/p&gt;
+
+&lt;p&gt;You can watch a video then try to also search online more about the
+topic he was talking about to help you get a deeper understanding of the
+topic.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PL8seg1JPkqgF5wazzCKSq3EEfqt3t8mvA&quot;&gt;Swift Interview Tips&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;apps&quot;&gt;Apps&lt;/h4&gt;
+
+&lt;p&gt;An open source application for viewing Swift Algorithm Club markdown
+resources.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/algorithms-data-structures/id1431032601?mt=8&quot;&gt;&lt;strong&gt;Algorithms &amp;amp; Data Structures&lt;/strong&gt;&lt;/a&gt;(App Store)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/thexande/SwiftAlgorithms&quot;&gt;&lt;strong&gt;Algorithms &amp;amp; Data Structures&lt;/strong&gt;&lt;/a&gt; (Github repo)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;websites-1&quot;&gt;Websites&lt;/h4&gt;
+
+&lt;p&gt;Using “be the compiler” tests. This will present you with 20 questions
+graded at three difficulty levels, and ask you to choose a correct
+answer. This is a highly technical test designed to hone your Swift
+knowledge. Also created by &lt;a href=&quot;https://twitter.com/twostraws&quot;&gt;Paul Hudson&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.hackingwithswift.com/test&quot;&gt;&lt;strong&gt;Test your Swift skills&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you are struggling to create iOS applications and can’t have a good
+resume because you are not a designer you can also buy some great &lt;a href=&quot;https://www.iosapptemplates.com/&quot;&gt;iOS App Templates&lt;/a&gt; and if you are more
+interested in &lt;a href=&quot;https://www.instamobile.io/&quot;&gt;React Native App Templates&lt;/a&gt;
+you can buy them from here they have a really great collection.&lt;/p&gt;
+
+&lt;h4 id=&quot;articles-and-githubrepos&quot;&gt;Articles and Github repos&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.raywenderlich.com/762435-swift-interview-questions-and-answers&quot;&gt;&lt;strong&gt;RW Swift Interview Questions and Answers&lt;/strong&gt;&lt;/a&gt;
+In this article, you’ll work through a series of Swift-specific
+interview questions and answers.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.hackingwithswift.com/articles/10/how-to-get-a-job-as-an-ios-developer&quot;&gt;&lt;strong&gt;How to get a job as an iOS developer&lt;/strong&gt;&lt;/a&gt;  A great article by &lt;a href=&quot;https://twitter.com/twostraws&quot;&gt;Paul Hudson&lt;/a&gt;
+that really discuss deeply how you can get a job as an iOS
+developer.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/MaximAbramchuck/awesome-interview-questions#ios&quot;&gt;&lt;strong&gt;Awesome Interview Questions&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;Anyways, I wish you luck passing your next interview and getting your
+iOS engineering job.&lt;/p&gt;
+
+&lt;p&gt;Don’t forget to share with me any other resources that you found helpful
+in passing your interviews.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.paypal.me/HassanElDesouky?locale.x=en_US&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*8RA2giRIK2fXze7e57361Q.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;By &lt;a href=&quot;https://medium.com/@hassaneldesouky&quot;&gt;Hassan El Desouky&lt;/a&gt; on &lt;a href=&quot;https://medium.com/p/1cca22cedafe&quot;&gt;June 11,
+2019&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@hassaneldesouky/14-resources-to-help-you-get-your-ios-engineering-job-1cca22cedafe&quot;&gt;Canonical
+link&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="blogging" /><category term="advice" /><category term="interviews" /><summary type="html">14 Resources to help you get your iOS engineering job</summary></entry><entry><title type="html">Disjoint-set union data structure in C++ and Swift</title><link href="https://heldesouky.xyz//blog/Disjoint-set-union-data-structure-in-C-and-Swift" rel="alternate" type="text/html" title="Disjoint-set union data structure in C++ and Swift" /><published>2019-04-10T00:00:00+00:00</published><updated>2019-04-10T00:00:00+00:00</updated><id>https://heldesouky.xyz//blog/Disjoint-set-union-data-structure-in-C---and-Swift</id><content type="html" xml:base="https://heldesouky.xyz//blog/Disjoint-set-union-data-structure-in-C-and-Swift">&lt;h2 id=&quot;disjoint-set-union-data-structure-in-c-and-swift&quot;&gt;Disjoint-set union data structure in C++ and Swift&lt;/h2&gt;
+
+&lt;p&gt;Learn how to implement Disjoint-set union structure that’s used in the Kruskal Algorithm in order to solve the MST problem in an efficient way.&lt;/p&gt;
+
+&lt;h3 id=&quot;disjoint-set-union-in-c-andswift&quot;&gt;Disjoint-set union in C++ and Swift&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/2560/1*BP0DnNz3z8eFtAEjPh0hIQ.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Have you ever wondered, when you drive by your car, how your navigation system corrects the optimal route, from your current position to your destination, on changes based on the input data such as traffic jams and missed turns?&lt;/p&gt;
+
+&lt;p&gt;This is one of the real-time practical application of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Minimum_spanning_tree&quot;&gt;Minimum Spanning Tree (MST)&lt;/a&gt; problem, in which an algorithm like &lt;a href=&quot;https://en.wikipedia.org/wiki/Kruskal%27s_algorithm&quot;&gt;Kruskal’s Algorithm&lt;/a&gt; tries to solve. In this article, we will learn the main data structure that’s used in the Kruskal Algorithm in order to solve the &lt;a href=&quot;https://en.wikipedia.org/wiki/Minimum_spanning_tree&quot;&gt;MST&lt;/a&gt; problem in an efficient way.&lt;/p&gt;
+
+&lt;p&gt;In this article, we will be quickly going through:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;How it works&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Implementation in C++&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Implementation in Swift&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.paypal.me/HassanElDesouky?locale.x=en_US&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*4N4u_wPLkqco5f1S1sX5tA.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+
+&lt;p&gt;Imagine having a graph, like what’s in the following image. You are asked to make two queries really fast which are:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;unionSets&lt;/strong&gt; i.e. merge two sets together.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;isSameSet&lt;/strong&gt; i.e. find wither the two nodes are in the same set or not.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*hXq3DML-zxTX06r4XVWq1A.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Image from &lt;a href=&quot;https://csacademy.com/app/graph_editor/&quot;&gt;https://csacademy.com/app/graph_editor/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Disjoint-set data structure allows us to very quickly determine if two items are in the same set (or equivalently determine if two vertices are in the same connected component), and also to very quickly unite two sets (or equivalently combine two connected components into one connected component).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A &lt;a href=&quot;http://en.wikipedia.org/wiki/Disjoint-set_data_structure&quot;&gt;&lt;em&gt;union-find algorithm&lt;/em&gt;&lt;/a&gt; is an algorithm that performs two useful operations on such a data structure:
+&lt;strong&gt;&lt;em&gt;Find:&lt;/em&gt;&lt;/strong&gt; Determine which subset a particular element is in. This can be used for determining if two elements are in the same subset.
+&lt;strong&gt;&lt;em&gt;Union:&lt;/em&gt;&lt;/strong&gt; Join two subsets into a single subset.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Union-Find Algorithm&lt;/em&gt; can be used to check whether an undirected graph contains a cycle or not. This method assumes that the graph doesn’t contain any self-loops. And we can keep track of the subsets in a 1D array.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-itworks&quot;&gt;How it works&lt;/h3&gt;
+
+&lt;p&gt;In the following graph, let’s find out buy this union-find algorithm wither this is graph has a cycle or not.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*gm00EmWyu2TUIyW-T6PMKg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Image from &lt;a href=&quot;https://csacademy.com/app/graph_editor/&quot;&gt;https://csacademy.com/app/graph_editor/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For each edge in this graph make subsets using both the vertices of the edge. If both the vertices are in the same subset, a cycle is found.&lt;/p&gt;
+
+&lt;p&gt;Then make a parent array and &lt;a href=&quot;http://www.cplusplus.com/reference/cstring/memset/&quot;&gt;memset&lt;/a&gt; it to -1 (i.e. make -1 as the initial value for all of the array). Then process all of these edges one by one.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; 0  1  2 --&amp;gt; the nodes.
+ -1 -1 -1 --&amp;gt; the parent array.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*y9QAemdoHXZOS4wmQeiCLw.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Image from &lt;a href=&quot;http://visualgo.net&quot;&gt;http://visualgo.net&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Edge 0–1:&lt;/em&gt; Find the subsets in which vertices 0 and 1 are. Since they are in different subsets, we take the union of them. For taking the union, either make node 0 as the parent of node 1 or vice-versa.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; 0  1  2 --&amp;gt; the nodes. 
+ 1 -1 -1 --&amp;gt; node number 1 is the parent of node 0.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;iframe src=&quot;https://giphy.com/embed/5C0eKLOyPygejPR4Y6&quot; width=&quot;600&quot; height=&quot;102&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;From &lt;a href=&quot;http://visualgo.net&quot;&gt;http://visualgo.net&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Edge 1–2:&lt;/em&gt; 1 is in subset 1 and 2 is in subset 2. So, take union.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0  1  2 --&amp;gt; the nodes.
+1  2 -1 --&amp;gt; node number 2 is the parent of node 1.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;iframe src=&quot;https://giphy.com/embed/fjxOSwRWU888BAZqkJ&quot; width=&quot;600&quot; height=&quot;102&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;From &lt;a href=&quot;http://visualgo.net&quot;&gt;http://visualgo.net&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Edge 0–2:&lt;/em&gt; 0 is in subset 2 and 2 is also in subset 2.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://giphy.com/embed/5e20yAmVFFQkoY0W8v&quot; width=&quot;600&quot; height=&quot;102&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;From &lt;a href=&quot;http://visualgo.net&quot;&gt;http://visualgo.net&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Thus, including this edge forms a cycle.&lt;/p&gt;
+
+&lt;h3 id=&quot;implementation&quot;&gt;Implementation&lt;/h3&gt;
+
+&lt;h4 id=&quot;in-c&quot;&gt;In C++&lt;/h4&gt;
+
+&lt;p&gt;Let’s start with creating a new class and call it DSU. If you are familiar with C++, your class will have a &lt;em&gt;.h&lt;/em&gt; and a &lt;em&gt;.cpp&lt;/em&gt; files.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*hOuUXfHqaCjMRtCQ39yrxg.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We will create the &lt;em&gt;parent&lt;/em&gt; array and the &lt;em&gt;sz&lt;/em&gt; array dynamically, also we will need a private method to get the parent of the current node, and finally, in the private members’ section, we will need a swap method.&lt;/p&gt;
+
+&lt;p&gt;In the public members’ section, we need a &lt;em&gt;constructor&lt;/em&gt; that will take the size of our graph, &lt;em&gt;unionSets&lt;/em&gt; method to merge two sets together, &lt;em&gt;isSameSet&lt;/em&gt; method to find out wither the two nodes are in the same set or not, and finally, of course, we need a &lt;em&gt;destructor.&lt;/em&gt;&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/HassanElDesouky/d48ed90ac9ecfcd11e4e9bed9f024659.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;While implementing those methods, start with the &lt;strong&gt;find_parent()&lt;/strong&gt;.
+The idea here is to save the parent of the nodes in the parent array, therefore when you need this information it will give you the info in an amortized O(1) complexity rather than O(n).&lt;/p&gt;
+
+&lt;p&gt;In &lt;strong&gt;same_set()&lt;/strong&gt; method we will just compare the parent of both nodes. If they match then they are in the same set. Finally, in &lt;strong&gt;union_sets()&lt;/strong&gt; method, you will find the parent for both nodes then union them. If they aren’t in the same set.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/HassanElDesouky/051cab79c6a3fae68e952e6fa65902fb.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The constructor will fill the parent array with the number of nodes starting from &lt;em&gt;0&lt;/em&gt; to &lt;em&gt;n.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;in-swift&quot;&gt;In Swift&lt;/h4&gt;
+
+&lt;p&gt;Create a new Swift Playground, then create a class call it DSU. In this step, I’ll be converting the C++ code to Swift. I quickly came up with something very similar.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/HassanElDesouky/669f11e337b43e679865d1d8a9a28bb9.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Note, I needed to change properties in place so I used the &lt;em&gt;inout&lt;/em&gt;keyword for the function’s parameters.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;All parameters passed into a Swift function are &lt;em&gt;constants&lt;/em&gt;, so you can’t change them. If you want, you can pass in one or more parameters as &lt;code class=&quot;highlighter-rouge&quot;&gt;inout&lt;/code&gt;, which means they can be changed inside your function, and those changes reflect in the original value outside the function.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;All of the code in this article is on my GitHub.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/HassanElDesouky/DisjointSetUnion&quot; title=&quot;https://github.com/HassanElDesouky/DisjointSetUnion&quot;&gt;&lt;strong&gt;HassanElDesouky/DisjointSetUnion&lt;/strong&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/HassanElDesouky/DisjointSetUnion&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;This data structure is used by the &lt;a href=&quot;https://en.wikipedia.org/wiki/Boost_Graph_Library&quot; title=&quot;Boost Graph Library&quot;&gt;Boost Graph Library&lt;/a&gt; to implement its &lt;a href=&quot;http://www.boost.org/libs/graph/doc/incremental_components.html&quot;&gt;Incremental Connected Components&lt;/a&gt; functionality. It is also a key component in implementing &lt;a href=&quot;https://en.wikipedia.org/wiki/Kruskal%27s_algorithm&quot; title=&quot;Kruskal's algorithm&quot;&gt;Kruskal’s algorithm&lt;/a&gt; to find the &lt;a href=&quot;https://en.wikipedia.org/wiki/Minimum_spanning_tree&quot; title=&quot;Minimum spanning tree&quot;&gt;minimum spanning tree&lt;/a&gt; of a graph.&lt;/p&gt;
+
+&lt;p&gt;I had fun playing with it and solving some &lt;a href=&quot;https://en.wikipedia.org/wiki/Minimum_spanning_tree&quot;&gt;MST&lt;/a&gt; problems in C++, and I really learned a lot by just implementing this data structure. Therefore, I wanted to try implementing it in Swift.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading and I hope you had fun reading this article. If you have any thoughts please contact me over &lt;a href=&quot;https://twitter.com/hassanedesouky&quot;&gt;twitter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
+
+&lt;p&gt;You can read more about DSU from:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Disjoint-set_data_structure&quot;&gt;Disjoint-set data structure (Wikipedia)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mathblog.dk/disjoint-set-data-structure/&quot;&gt;Disjoint-set data structure (MathBlog Article)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.hackerearth.com/practice/data-structures/disjoint-data-strutures/basics-of-disjoint-data-structures/tutorial/&quot;&gt;Basics of Disjoint Data Structures (Hackerearth Tutorial)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I used &lt;a href=&quot;https://csacademy.com/app/graph_editor/&quot;&gt;https://csacademy.com/app/graph_editor/&lt;/a&gt; for drawing the graphs and used &lt;a href=&quot;http://visualgo.net&quot;&gt;http://visualgo.net&lt;/a&gt; to create the animations on the graphs.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.hackingwithswift.com/sixty/5/10/inout-parameters&quot;&gt;inout parameters (Hacking with swift)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Thanks to &lt;a href=&quot;https://github.com/Muhammad-Magdi&quot;&gt;Muhammad Magdi&lt;/a&gt; for helping out in the C++ implementation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.paypal.me/HassanElDesouky?locale.x=en_US&quot;&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*8RA2giRIK2fXze7e57361Q.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;By &lt;a href=&quot;https://medium.com/@hassaneldesouky&quot;&gt;Hassan El Desouky&lt;/a&gt; on &lt;a href=&quot;https://medium.com/p/a52703b01fcb&quot;&gt;April 10, 2019&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@hassaneldesouky/disjoint-set-union-data-structure-in-c-and-swift-a52703b01fcb&quot;&gt;Canonical link&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="algorithm" /><category term="data-structure" /><category term="c++" /><category term="swift" /><summary type="html">Disjoint-set union data structure in C++ and Swift</summary></entry><entry><title type="html">How to come up with an app idea</title><link href="https://heldesouky.xyz//blog/How-to-come-up-with-an-app-idea" rel="alternate" type="text/html" title="How to come up with an app idea" /><published>2019-03-19T00:00:00+00:00</published><updated>2019-03-19T00:00:00+00:00</updated><id>https://heldesouky.xyz//blog/How-to-come-up-with-an-app-idea</id><content type="html" xml:base="https://heldesouky.xyz//blog/How-to-come-up-with-an-app-idea">&lt;h2 id=&quot;how-to-come-up-with-an-app-idea&quot;&gt;How to come up with an app idea&lt;/h2&gt;
+
+&lt;p&gt;I used to always ask myself this question, how can I come up with an app idea?&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-come-up-with-an-appidea&quot;&gt;How to come up with an app idea&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I used to always ask myself this question, how can I come up with an app idea?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;After a little bit of experience, and after reading this article of &lt;a href=&quot;https://www.iosapptemplates.com/blog/startups/mobile-app-ideas&quot;&gt;&lt;strong&gt;30+ Best Mobile App Ideas To Create in 2019&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;.&lt;/strong&gt;I kind of know now how to come up with an idea for an application. Here’s a walkthrough of the steps which I took to create my first Chrome Extension, and I think these steps are applicable to create any application.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Identify the problem.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Make a search to see if it’s been done before.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Make a search on how you are going to make the app.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Learn the new skills which are required for making the app.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Start building the app.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Finish and publish the first release!&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;identify-theproblem&quot;&gt;&lt;strong&gt;Identify the problem&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;First of all, I guess you need a backstory to understand the problem that I wanted to solve. I’m a college student in Egypt. In my university, each class creates a Facebook group to make it easier to share information and summaries for lectures. The problem was that a lot of the summaries was written on paper then someone would take a photo of the paper and upload it to the Facebook group. The &lt;strong&gt;problem&lt;/strong&gt; was that a lot of these photos was rotated. To see the content properly you would have to download the image and then edit it somehow to re-rotate the image.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*raZ-Px73x9TKBsrlxX9uKQ.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Rotated images (The problem)&lt;/p&gt;
+
+&lt;p&gt;In the last semester’s final exams, I decided to make a tool to solve this problem. I wanted to make something like a Chrome Extension to rotate the image inside of Facebook without the need to download it and re-rotate it manually.&lt;/p&gt;
+
+&lt;h3 id=&quot;is-it-been-donebefore&quot;&gt;&lt;strong&gt;Is it been done before&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;As soon as I got the idea, I made a quick google search to see if there is such a thing, but I couldn’t find anything. Therefore, I decided to go for it and make my own tool even though I’ve never done such a thing before.&lt;/p&gt;
+
+&lt;p&gt;If I found out that someone had done before, I would try to learn how he approached the problem, what he did solve, and how can I make a better version than what he did?&lt;/p&gt;
+
+&lt;h3 id=&quot;how-you-are-going-to-make-theapp&quot;&gt;&lt;strong&gt;How you are going to make the app&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;When I knew that I will create my own Chrome Extension. I started googling on how they are made? and how can I build my own Chrome Extension?&lt;/p&gt;
+
+&lt;p&gt;With a simple google search, I found out that Chrome Extensions and made by JavaScript. And about How to build them. I found out a great resource and it’s a &lt;a href=&quot;https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bL9VOMT65ahNEri9uqLWfS&quot;&gt;YouTube playlist&lt;/a&gt; from a channel called &lt;a href=&quot;https://www.youtube.com/user/shiffman&quot;&gt;The Coding Train&lt;/a&gt;. &lt;a href=&quot;https://twitter.com/shiffman&quot;&gt;Daniel&lt;/a&gt; really goes in depth in this playlist on how to create the Chrome Extension, and for someone like me that didn’t have any experience in creating Chrome Extensions, I really learned a lot!&lt;/p&gt;
+
+&lt;h3 id=&quot;learn-the-newskills&quot;&gt;&lt;strong&gt;Learn the new skills&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;To make a Chrome Extension — in my case, I had to learn just the basics of JavaScript. Lucky enough that I knew some JS, so, what I did was just brushing my JavaScript knowledge.&lt;/p&gt;
+
+&lt;p&gt;If it was a totally new thing to me, I would have to create a learning path and learn the new technology in parallel with creating my app. The approach that I like to take in these situations is learning while doing. It really makes it fun to learn.&lt;/p&gt;
+
+&lt;p&gt;In my situation, &lt;a href=&quot;https://twitter.com/shiffman&quot;&gt;Daniel&lt;/a&gt;’s playlist was enough and just perfect! I didn’t have to look up at any other resource other than some questions over &lt;a href=&quot;https://stackoverflow.com/&quot;&gt;StackOverflow&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;start-building-theapp&quot;&gt;&lt;strong&gt;Start building the app&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;I wanted to make the Chrome Extension as simple as possible. Just a button that when you click on it the image inside of Facebook rotates, without the need of downloading it or anything!&lt;/p&gt;
+
+&lt;p&gt;I started building the Extension and in less than 2 hours or so, I finished it! It was amazing and it felt great that I found a problem and made a simple tool to solve it.&lt;/p&gt;
+
+&lt;p&gt;And sometimes you want to design your app but you don’t have time designing it or creating a template for it so the best way is to buy some great &lt;a href=&quot;https://www.iosapptemplates.com/&quot;&gt;iOS App Templates&lt;/a&gt; and if you are more interested in &lt;a href=&quot;https://www.instamobile.io/&quot;&gt;React Native App Templates&lt;/a&gt; you can buy them from here they have a really great collection.&lt;/p&gt;
+
+&lt;h3 id=&quot;finish-and-publish-the-firstrelease&quot;&gt;&lt;strong&gt;Finish and publish the first release!&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;As soon as I finished the first release, I made the GitHub repo public and submitted it to the Chrome Web Store. Then I posted it in an Egyptian technical Facebook group and got a lot of positive feedback.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*gMkh5KCMljVQd5LydY5sAA.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My Facebook post on Egyptian Geeks group&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*2wYSXNpDKq9dClVbxExm_Q.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Installs and Impressions on the Chrome Web Store&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;My Chrome Extension is very simple and isn’t perfect at all but, as they say, it is better done than perfect. My tool solved a problem that many people have and I do think the most important thing is to solve problems that you have. Just think of something or an application that would make your life easier and simply try to create it!&lt;/p&gt;
+
+&lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/user/shiffman/&quot;&gt;The Coding Train&lt;/a&gt; (YouTube Channel)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.facebook.com/groups/egyptian.geeks&quot;&gt;Egyptian Geeks&lt;/a&gt; (Facebook Group)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/HassanElDesouky/Rotaty&quot;&gt;Rotaty Chrome Extension&lt;/a&gt; (GitHub Repo)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/rotaty/ihheadokjmlbodbmoomoikieiiihonnj&quot;&gt;Rotaty Chrome Extension&lt;/a&gt; (Chrome Web Store)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;By &lt;a href=&quot;https://medium.com/@hassaneldesouky&quot;&gt;Hassan El Desouky&lt;/a&gt; on &lt;a href=&quot;https://medium.com/p/f0a80bb11519&quot;&gt;March 19, 2019&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@hassaneldesouky/how-to-come-up-with-an-app-idea-f0a80bb11519&quot;&gt;Canonical link&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="blogging" /><category term="advice" /><category term="ideas" /><summary type="html">How to come up with an app idea</summary></entry></feed>

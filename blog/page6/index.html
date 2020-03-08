@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    
+      Hassan ElDesouky
+    
+  </title>
+  
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="alternate" type="application/rss+xml" title="Hassan ElDesouky" href="/feed.xml">
+  
+    <script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84722092-1', 'auto');
+  ga('set', 'anonymizeIp', true)
+  ga('send', 'pageview');
+</script>
+
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+    <a class="site-title" href="/">Hassan ElDesouky</a>
+  
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger">
+        <span class="menu-icon">
+          <svg viewBox="0 0 18 15" width="18px" height="15px">
+            <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+            <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+            <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+          </svg>
+        </span>
+      </label>
+
+      <div class="trigger">
+        <a href="/" class="page-link active">Blog</a>
+        <a href="/projects" class="page-link ">Projects</a>
+        <a href="/archive" class="page-link ">Archive</a>
+        <a href="/about" class="page-link ">About</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div id="sidebar">
+  <h1 style="font-size: 21px;">Hassan ElDesouky</h1>
+  <p>Computer Science Student and an Apple Developer</p>
+
+  
+<div id="story-available">
+  <img 
+    src="https://graph.facebook.com/100003817967579/picture?type=large"
+    id="storyProfilePicture"
+    onclick="showStories()"
+  />
+</div>
+
+<div id="storyViewer">
+  <div id="storyViewerDimmedBackground" onclick="dismissStories()"></div>
+  <div id="storyContent">
+    <div id="storyHeader">
+      <img 
+        id="storyHeaderProfilePicture"
+        onclick="window.open('https://instagram.com/hassanedesouky', '_blank')"
+      />
+      <p id="storyUserlink"><a href="https://instagram.com/hassanedesouky" target="_blank">hassanedesouky</a></p>
+      <p id="storyTimestamp"></p>
+      <p id="poweredByInstapipe"><a href="https://instapipe.net" target="_blank">instapipe.net</a></p>
+    </div>
+    <div id="storyProgressBar"></div>
+    <div id="storyBackButton" class="storyButton" onclick="userDidClickPreviousStory()">
+      <
+    </div>
+    <div id="storyNextButton" class="storyButton" onclick="userDidClickNextStory()">
+      >
+    </div>
+
+    <video autoplay playsinline muted id="storyVideoViewer">
+    </video>
+    <div id="storyPhotoViewer" onclick="userDidClickNextStory()">
+    </div>
+  </div>
+  <img src="" id="fakeContentToPreloadImages" />
+</div>
+
+<script type='text/javascript'>
+let host = "https://instapipe.herokuapp.com/"
+let userId = "1376312608"
+
+var storiesToShow = null;
+var timeOutForPhotos = 4.0;
+var storyProgressSpacing = 5;
+var progressPadding = 2;
+var progressBars = null;
+var storiesContent = null;
+
+var nextStoryTimeout = null;
+var currentIndex = -1;
+
+function preloadStoriesIndex() {
+  var url = host + "stories.json?user_id=" + userId;
+
+  var xmlHttp = new XMLHttpRequest();
+  xmlHttp.onreadystatechange = function() { 
+    if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
+      storiesContent = JSON.parse(xmlHttp.responseText)
+      if (storiesContent.length == 0) {
+        // Default it's shown, as it looks nicer
+        // and I post stories most days :joy:
+        document.getElementById("story-available").className += "story-not-available"
+      } else {
+        // preload the first story if it's a picture
+        if (!storiesContent[0]["is_video"]) {
+          document.getElementById("fakeContentToPreloadImages").src = storiesContent[0]["signed_url"]
+        }
+      }
+    }
+  };
+
+  xmlHttp.open("GET", url, true); // true = asynchronous 
+  xmlHttp.send(null);
+}
+
+function showStories() {
+  if (storiesContent == null || storiesContent.length == 0) {
+    return;
+  }
+
+  // Copy the profile picture URL to the story header, to only have to define it once
+  // we only do that once everything is loaded, as depending on the website
+  // the image node might not be acccessible yet
+  let profileImageURL = document.getElementById("storyProfilePicture").src
+  document.getElementById("storyHeaderProfilePicture").src = profileImageURL;
+
+  storiesToShow = []
+  progressBars = []
+
+  document.getElementById("storyViewer").style.display = "block"
+
+  for (let storyIndex in storiesContent) {
+    let currentStory = storiesContent[storyIndex]
+    storiesToShow.push(currentStory)
+  }
+
+  for (let currentStoryIndex in storiesToShow) {
+    let currentStory = storiesToShow[currentStoryIndex]
+
+    // Append the progress items
+    var progressBarBackground = document.createElement("div")
+    progressBarBackground.className = "storyProgressBarItemBg"
+    progressBarBackground.style.width = "calc(" + (1.0 / storiesToShow.length) * 100 + "%" + " - " + progressPadding * 2 + "px)"
+    progressBarBackground.style.marginRight = progressPadding + "px"
+    progressBarBackground.style.marginLeft = progressPadding + "px"
+    document.getElementById("storyProgressBar").appendChild(progressBarBackground)
+
+    var progressBarForeground = document.createElement("div")
+    progressBarForeground.style.width = "0%"
+    progressBarForeground.className = "storyProgressBarItemFg"
+    progressBarBackground.appendChild(progressBarForeground)
+
+    progressBars.push(progressBarForeground)
+  }
+
+  currentIndex = 0
+  renderCurrentStory()
+
+  var xmlHttp = new XMLHttpRequest();
+  xmlHttp.onreadystatechange = function() {}
+  xmlHttp.open("GET", host + "didOpenStories", true); // true = asynchronous 
+  xmlHttp.send(null);
+}
+
+function renderCurrentStory() {
+  currentStory = storiesToShow[currentIndex]
+  
+  for (let index in progressBars) {
+    let currentProgressBar = progressBars[index]
+    if (currentIndex > index) {
+      currentProgressBar.style.width = "100%"
+    } else {
+      currentProgressBar.style.width = "0%"
+    }
+  }
+
+  // Show image/video
+  let videoViewer = document.getElementById("storyVideoViewer")
+  let photoViewer = document.getElementById("storyPhotoViewer")
+  let progressBarContent = progressBars[currentIndex]
+
+  document.getElementById("storyTimestamp").textContent = currentStory["formatted_time_diff"]
+
+  if (currentStory["is_video"]) {
+    videoViewer.src = currentStory["signed_url"]
+    videoViewer.style.display = "block"
+    videoViewer.onended = function() {
+      if (currentIndex < storiesToShow.length - 1) {
+        currentIndex++;
+        renderCurrentStory();
+      } else {
+        dismissStories();
+      }
+    };
+    let videoUpdatedDuration = function() {
+      // this is triggered when the video file was loaded
+      // videos have dynamic length
+      animateProgressBar(progressBarContent, videoViewer.duration)
+      videoViewer.removeEventListener("durationchange", videoUpdatedDuration)
+    }
+    videoViewer.addEventListener("durationchange", videoUpdatedDuration)
+    videoViewer.load()
+    videoViewer.play()
+    photoViewer.style.display = "none"
+  } else {
+    photoViewer.style.backgroundImage = "url('" + currentStory["signed_url"] + "')"
+    videoViewer.style.display = "none"
+    photoViewer.style.display = "block"
+    animateProgressBar(progressBarContent, timeOutForPhotos) // photos are always x seconds
+
+    // Advance to next story after X seconds
+    nextStoryTimeout = setTimeout(function() {
+      if (currentIndex < storiesToShow.length - 1) {
+        currentIndex++;
+        renderCurrentStory();
+      } else {
+        dismissStories();
+      }
+    }, timeOutForPhotos * 1000)
+  }
+
+  // Trigger the next one
+  if (currentIndex < storiesToShow.length - 1 && !storiesToShow[currentIndex + 1]["is_video"])
+  {
+    setTimeout(function() {
+      // Poor person's pre-loading of images, with a slight delay
+      document.getElementById("fakeContentToPreloadImages").src = storiesToShow[currentIndex + 1]["signed_url"]
+    }, timeOutForPhotos / 3.0 * 1000)
+  }
+}
+
+function animateProgressBar(progressBar, duration) {
+  progressBar.style.animationName = "storyViewProgress";
+  progressBar.style.animationDuration = duration + "s";
+}
+
+function userDidClickPreviousStory() {
+  if (currentIndex > 0) {
+    stopAllAnimations()
+    currentIndex--;
+    renderCurrentStory();
+  } else {
+    dismissStories();
+  }
+}
+
+function userDidClickNextStory() {
+  if (currentIndex < storiesToShow.length - 1) {
+    stopAllAnimations()
+    currentIndex++;
+    renderCurrentStory();
+  } else {
+    dismissStories();
+  }
+}
+
+function stopAllAnimations() {
+  clearTimeout(nextStoryTimeout)
+  document.getElementById("storyVideoViewer").onended = null
+
+  for (let index in progressBars) {
+    let currentProgressBar = progressBars[index]
+    currentProgressBar.style.animationName = null
+  }
+}
+
+function dismissStories() {
+  document.getElementById("storyViewer").style.display = "none"
+  document.getElementById("storyProgressBar").innerHTML = ""
+  stopAllAnimations()
+}
+
+window.addEventListener("keyup", function(e) {
+  if (e.keyCode == 27) { // ESC
+    dismissStories()
+    return true;
+  }
+  if (e.keyCode == 37) { // Left
+    userDidClickPreviousStory();
+  }
+  if (e.keyCode == 39) { // Right
+    userDidClickNextStory();
+  }
+}, false);
+
+preloadStoriesIndex();
+
+</script>
+<style type='text/css'>
+#storyProfilePicture {
+  width: 128px;
+  height: 128px;
+  border-radius: 70px;
+  margin-left: 3px;
+  margin-top: 3px;
+  cursor: pointer;
+  border: 4px solid white;
+}
+
+#story-available {
+  background-image: linear-gradient(rgb(186, 62, 138), #fba051);
+  height: 142px;
+  width: 142px;
+  z-index: -10;
+  border-radius: 70px;
+  margin-bottom: 15px;
+}
+
+#story-available.story-not-available {
+  background-image: none !important;
+}
+
+#storyViewer {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  text-align: center;
+  display: none;
+
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: normal;
+}
+#storyViewer > #storyViewerDimmedBackground {
+  /* This is a separate div to allow onclick events */
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
+#storyViewer p {
+  color: #686868;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0 0 24px;
+  text-align: center;
+  text-justify: inter-word;
+}
+
+#storyViewer > #storyContent {
+  width: 512px;
+  max-width: 80%; /* for mobile devices */
+  margin-top: 30px;
+  display: inline-block;
+
+  /* 
+    To get the right aspect ratio, while still having a dynamic content size
+    https://stackoverflow.com/questions/1495407/maintain-the-aspect-ratio-of-a-div-with-css
+    IG content: 910px height to 512px width = ~178%
+    So the `padding-bottom` sets the height of the content
+  */
+  padding-bottom: 178%;
+}
+
+#storyViewer > #storyContent > .storyButton {
+  position: fixed;
+  top: calc(910px - 450px);
+  background-color: rgba(200, 200, 200, 0.88);
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: bolder;
+  font-size: 16px;
+  border-radius: 18px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#storyViewer > #storyContent > #storyBackButton {
+  left: 50px;
+}
+
+#storyViewer > #storyContent > #storyNextButton {
+  right: 53px; /* no idea where the difference comes from */
+}
+
+#storyViewer > #storyContent > #storyPhotoViewer {
+  width: 100%;
+  padding-bottom: 178%; /* see comment in #storyContent */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+#storyViewer > #storyContent > #storyVideoViewer {
+  padding-bottom: 178%; /* see comment in #storyContent */
+  width: 100%;
+}
+
+#storyViewer > #storyContent > #storyProgressBar {
+  width: calc(100% + 4px);
+  margin-left: -2px;
+  height: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#storyViewer > #storyContent > #storyProgressBar > .storyProgressBarItemBg {
+  border-radius: 6px;
+  background-color: rgba(187, 187, 187, 0.6);
+  height: 100%;
+  display: inline-block;
+  float: left;
+}
+
+.storyProgressBarItemFg {
+  background-color: #FFF;
+  height: 100%;
+  border-radius: 3px;
+  animation-timing-function: linear;
+}
+
+#fakeContentToPreloadImages {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+@keyframes storyViewProgress {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
+/* Story header */
+#storyHeader {
+  height: 50px;
+  text-align: left;
+}
+
+#storyHeader > #storyHeaderProfilePicture {
+  height: 38px;
+  width: 38px;
+  border-radius: 19px;
+  cursor: pointer;
+  margin-top: 7px;
+  display: block-inline;
+}
+
+#storyHeader > #storyUserlink {
+  display: block-inline;
+  margin-left: 50px;
+  text-align: left;
+  margin-top: -40px; /* hacky */
+  padding-top: 0;
+  font-size: 20px;
+}
+
+#storyHeader > #storyUserlink > a {
+  color: white !important;
+  text-decoration: none;
+}
+
+#storyHeader > #storyTimestamp {
+  color: #777;
+  display: block-inline;
+  margin-left: 50px;
+  text-align: left;
+  margin-top: -28px;
+  padding-top: 0;
+  font-size: 16px;
+}
+
+#storyHeader > #poweredByInstapipe {
+  display: block-inline;
+  margin-left: 150px;
+  text-align: right;
+  margin-top: -50px; /* hacky */
+  padding-top: 0;
+  font-size: 16px;
+}
+
+#storyHeader > #poweredByInstapipe > a {
+  color: #999 !important;
+  text-decoration: none;
+}
+
+</style>
+
+  <p><a href="/about">More about me</a></p>
+
+  <!-- Social links -->
+  <ul class="social-media-list" style="margin-top: 20px; margin-bottom: 30px;">
+    <li>
+      <a href="https://github.com/hassaneldesouky" target="_blank"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">hassaneldesouky</span></a>
+
+    </li>
+    <li>
+      <a href="https://stackoverflow.com/users/5025731"><span class="icon icon--linked"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="16px" height="16px" viewBox="-135 22 32 38" enable-background="new -135 22 190 38" xml:space="preserve">
+    <g>
+        <polygon fill="#BCBBBB" points="-108.5,56.2 -108.5,46.3 -105.2,46.3 -105.2,59.5 -135,59.5 -135,46.3 -131.7,46.3 -131.7,56.2       "/>
+        <path fill="#F48024" d="M-128,45.4l16.2,3.4l0.7-3.2l-16.2-3.4L-128,45.4z M-125.9,37.6l15,7l1.4-3l-15-7L-125.9,37.6z     M-121.7,30.2l12.7,10.6l2.1-2.5l-12.7-10.6L-121.7,30.2z M-113.5,22.4l-2.7,2l9.9,13.3l2.7-2L-113.5,22.4z M-128.4,52.9h16.6    v-3.3h-16.6V52.9z"/>
+    </g>
+</svg>
+</span><span class="username">hassaneldesouky</span></a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/hassaneldesouky"><span class="icon icon--linked"><svg width="16px" height="16px" viewBox="0 0 430.117 430.117" xml:space="preserve"><path id="LinkedIn" fill="#828282" d="M430.117,261.543V420.56h-92.188V272.193c0-37.271-13.334-62.707-46.703-62.707 c-25.473,0-40.632,17.142-47.301,33.724c-2.432,5.928-3.058,14.179-3.058,22.477V420.56h-92.219c0,0,1.242-251.285,0-277.32h92.21 v39.309c-0.187,0.294-0.43,0.611-0.606,0.896h0.606v-0.896c12.251-18.869,34.13-45.824,83.102-45.824 C384.633,136.724,430.117,176.361,430.117,261.543z M52.183,9.558C20.635,9.558,0,30.251,0,57.463 c0,26.619,20.038,47.94,50.959,47.94h0.616c32.159,0,52.159-21.317,52.159-47.94C103.128,30.251,83.734,9.558,52.183,9.558z M5.477,420.56h92.184v-277.32H5.477V420.56z"/></svg>
+</span><span class="username">hassaneldesouky</span></a>
+
+    </li>
+    <li>
+      <a href="https://twitter.com/hassanedesouky" target="_blank"><span class="icon icon--twitter"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">hassanedesouky</span></a>
+
+    </li>
+    <li>
+      <a href="https://instagram.com/hassanedesouky" target="_blank"><span class="icon icon--instagram"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+</span><span class="username">hassanedesouky</span></a>
+
+    </li>
+  </ul>
+
+  <p class="subscribe-newsletter">
+  Want to be the first to hear more about software engineering and Apple technologies related blogs?
+</p>
+
+<form class="subscribe-form" action="https://xyz.us19.list-manage.com/subscribe/post?u=145858a976462402b211db504&amp;id=5f723dd3d2" method="post" target="popupwindow" onsubmit="window.open('https://xyz.us19.list-manage.com/subscribe/post?u=145858a976462402b211db504', 'popupwindow', 'scrollbars=yes,width=600,height=620');return true">
+  <label for="tlemail"></label>
+  <input type="text" placeholder="Email Address" name="EMAIL" id="tlemail">
+  <input type="hidden" value="1" name="embed">
+  <button type="submit" name="subscribe">
+    Subscribe
+  </button>
+</form>
+
+
+  <hr />
+
+  <div class='jekyll-twitter-plugin'><a class="twitter-timeline" data-width="500" data-tweet-limit="5" href="https://twitter.com/hassanedesouky?ref_src=twsrc%5Etfw">Tweets by hassanedesouky</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+</div>
+
+
+        <div class="home">
+  
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline"><a href="/blog/How-I-failed-39-interviews-and-what-I-ve-learned">How I failed 39 interviews, and what I’ve learned</a></h1>
+        <p class="post-meta">
+          <time datetime="2019-02-18T00:00:00+00:00" itemprop="datePublished">
+            
+            Feb 18, 2019
+          </time>
+          </p>
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        <h2 id="how-i-failed-39-interviews-and-what-ive-learned">How I failed 39 interviews, and what I’ve learned</h2>
+
+<p>How to prepare for the first interview? What pitfalls to avoid? I went through dozens of interviews and got rejected. These are my learnings…</p>
+
+<hr />
+
+<h3 id="how-i-failed-39-interviews-and-what-ivelearned">How I failed 39 interviews and what I’ve learned</h3>
+
+<p><img src="https://cdn-images-1.medium.com/max/2560/1*w6LfUoZBwL05lYaJLFUUUQ.png" alt="" /></p>
+
+<p>Ever since I was a child, I wanted to work at a big software company like Google, Facebook, Amazon, or Apple. In 2013, when I was in ninth grade, I first got introduced to programming. From then I knew what I wanted to do with the rest of my life.</p>
+
+<p>My goal became to join a major tech company. One day, I told my teacher in Computer class, I will work at Google. A lot of my friends laughed at me for having such a dream. Some of them even called me funny names, such as “Google boy”, for the rest of the semester.</p>
+
+<p>Now I’m a computer science sophomore. I feel like one day my dream will come true.</p>
+
+<p>I think it’s really difficult to get a full-time offer at a big company when you are a student with a lack of job experience. As someone who really wants to work at such places, I really believe internships are the key.</p>
+
+<p>An internship is a great opportunity for junior iOS developers. It will allow you to gain industry experience, improve your technical and communication skills, test yourself in a real project. Also, you will know more about the company from inside. Do you like their culture? Does their processes, development speed, toolset suit you? Is it the company and the team you want to spend the next several years with?</p>
+
+<p>Next year I plan to get an internship at a big company, ideally outside of Egypt (and maybe this year’s summer too, if I’m lucky). Therefore after I finished my freshman year I did a lot of personal iOS projects and made the first resume. Then, I applied a lot to almost every company in Silicon Valley, and as you already know… I failed!</p>
+
+<p>So in this blog post, I’ll be talking about:</p>
+
+<ul>
+  <li><a href="https://medium.com/p/515c8e6c4b53#b4f2">Why did I fail to get an internship?</a></li>
+  <li><a href="https://medium.com/p/515c8e6c4b53#9834">What I have learned?</a></li>
+  <li><a href="https://medium.com/p/515c8e6c4b53#f062">Advice from a software engineer at Google</a></li>
+  <li><a href="https://medium.com/p/515c8e6c4b53#0f65">How I’m preparing for my next interview?</a></li>
+  <li><a href="https://medium.com/p/515c8e6c4b53#0655">Conclusion</a></li>
+  <li><a href="https://medium.com/p/515c8e6c4b53#185d">Resources</a></li>
+</ul>
+
+<p><a href="https://www.paypal.me/HassanElDesouky?locale.x=en_US"><img src="https://cdn-images-1.medium.com/max/800/1*4N4u_wPLkqco5f1S1sX5tA.png" alt="" /></a></p>
+
+<hr />
+
+<h3 id="why-did-i-fail-to-get-an-internship">Why did I fail to get an internship?</h3>
+
+<p><img src="https://cdn-images-1.medium.com/max/1200/1*qjv_A0-TQtnIoHMyzypWsA.png" alt="" /></p>
+
+<p>The first mistake was that I applied a lot to almost every internship opening at Google, Facebook, and Apple. A lot of my applications were directed to the United States offices. I found out that was wrong because I’m an Egyptian. It’s very hard and almost impossible to get a visa sponsorship to the USA.</p>
+
+<p>Secondly, I didn’t prepare myself to actually pass my technical interviews if I got one. I just submitted my resume to any internship opening I can find. I wanted to get my feet wet and apply to find out if my resume is good enough or not.</p>
+
+<p>Finally, I don’t have any work experience and I think it’s one of the reasons why I didn’t pass a lot of resumes filtering.</p>
+
+<h3 id="what-i-havelearned">What I have learned?</h3>
+
+<p>Believe it or not, but I actually learned a lot by just failing interviews.
+A former software engineer at Microsoft always says that…</p>
+
+<blockquote>
+  <p>“It’s a numbers game!” — Mohamed ElSherif</p>
+</blockquote>
+
+<p>Therefore, you just have to apply a lot and eventually, you will get an interview.</p>
+
+<p>I also learned how valuable networking is. Getting an interview at a big company is very difficult and almost impossible. Networking is very important you can get a referral through someone who’s working there and finally get the interview.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/1200/1*Eh8N1x76GsnnY1c0JGp1wg.png" alt="" /></p>
+
+<p>I applied a lot to Google and eventually got a snapshot survey with a coding sample. However, I failed because I didn’t prepare well for the interview, I was really happy that I got this opportunity.</p>
+
+<p>After I finished the coding sample interview, I found out similar questions on websites like <a href="http://leetcode.com">LeetCode</a> and <a href="http://GeeksforGeeks.org">GeeksforGeeks</a>. So, I really recommend checking those websites if you have a technical interview.</p>
+
+<h3 id="advice-from-a-software-engineer-atgoogle">Advice from a software engineer at Google</h3>
+
+<p>I try to connect with a lot of people who works at big companies like Google and Apple, to get their opinion on my resume and personal projects. I wanted to get any advice that will help me achieve my dream goal. Actually, I wanted to build a connection that will be definitely helpful for me in the future.</p>
+
+<p>I got to know a software engineer who works at Google. He was kind enough to set up a Google Hangouts video call and give me some advice that I wanted to share with you.</p>
+
+<h4 id="computer-science-fundamentals">Computer Science Fundamentals</h4>
+
+<p>Understanding computer science fundamentals are really crucial to become a good software engineer. You have to have a pretty good understanding of Math, Algorithms, and Data Structures.</p>
+
+<h4 id="dont-rush">Don’t rush!</h4>
+
+<p>It’s better if you don’t rush into learning new technologies in the first two years in college. The better thing is to learn the fundamentals very well and become very solid in problem-solving skills. It’ll help you a lot in your future career. After these two years, you can start learning any technology you like and start making personal projects.</p>
+
+<h4 id="know-whats-going-on-under-thehood">Know what’s going on under the hood</h4>
+
+<p>When you start learning a new technology, it’s better if you go a bit deeper to know more about it. Learn what’s going on under the hood, not just take a sneak peek of what it does. That will definitely make you a better learner and better software engineer.</p>
+
+<h4 id="programming-languages">Programming languages</h4>
+
+<p>There’s a lot of programming languages and learning a lot of them is not actually bad. However, you should have at least one programming language that you are comfortable with. Type in it at an acceptable rate without googling obvious syntax.</p>
+
+<h4 id="communication-skills">Communication skills</h4>
+
+<p>Communication skills are equally as important as technical. As work in a team might be one of the most challenging aspects of being a software developer.</p>
+
+<h4 id="online-presence">Online presence</h4>
+
+<p>Your online presence is important for your career as a software engineer. You should have a blog and write on a regular basis. Write about what are you learning, how do you approach the problems that you encounter in your personal projects and how you solve them. Marketing yourself can open a lot of working opportunity for you in the future.</p>
+
+<h4 id="open-source-contribution">Open source contribution</h4>
+
+<p>Contributing to open source projects is really beneficial for you as a software engineer. Not just open source contributions can give you a huge boost in your job application. Contribution to the community also can be the reason why a company contacts you to hire.</p>
+
+<p>When you have an open source contribution, the company see that you can navigate your way through a large code base and fix a bug. That’s what really matters as when you are in your full-time job. You won’t reinvent the wheel and more likely you will just fix bugs in a very large code base. Therefore, navigating your way through code that you didn’t write is a crucial skill for software engineers.</p>
+
+<h4 id="internships">Internships</h4>
+
+<p>You should take advantage of your summer vacations and go to internships as much as you can. It will give you industry experience that you won’t get from any online courses, nor college. Internships will also improve your communication skills and teach you how to work in a team environment.</p>
+
+<h4 id="difference-between-startups-and-corporates">Difference between Startups and Corporates</h4>
+
+<p>Everything has its own ups and downs. Therefore, working at a corporate teach you how to write proper code not just writing a code that works. It also gives you the opportunity to write code that has a big impact and solves a problem for a very large scale of audience. It will teach you how to work in a team environment and how to communicate with different teams in the company.</p>
+
+<p>Working in a startup will make you reach your limits, and actually, know what your limits are. It will also teach you how to deal with ambiguous problems and how to finish a lot of work in a relatively small portion of the time. Finally, when you work at a startup you will write a lot of code and learn how to get things done.</p>
+
+<h4 id="resume">Resume</h4>
+
+<p>The resume should be just one page long, especially if you are still a student or don’t have a lot of experience. Also, it should be nicely formatted.</p>
+
+<h4 id="preparing-for-interviews">Preparing for interviews</h4>
+
+<p>When you are preparing for interviews you should have a solid understanding of algorithms and data structures. After that, you should start with reading and doing the problems in Cracking the Coding Interview book. Then, you should start in Elements of Programming Interviews book as the problems in this book are harder than those in the CtCI book.</p>
+
+<h4 id="how-to-approach-aproblem">How to approach a problem?</h4>
+
+<p>More likely, in your interview, you will hear a new problem but kind of similar to a problem that you solved before. The key here is to try to make the problem that you heard like the one you already know. Then start approaching the problem from there.</p>
+
+<h3 id="how-im-preparing-for-my-next-interview"><strong>How I’m preparing for my next interview?</strong></h3>
+
+<p>I really want to get an internship at a big company next year, and if I’m lucky I want to get one also this year. Therefore, I’m trying and doing my absolute best to get that internship. Here’s what I do:</p>
+
+<h4 id="i-write-in-myblog">I write in my blog</h4>
+
+<p>Having a blog gives you great exposure in the community, and sometimes it can be the reason you get an interview. Therefore, in December of 2018, I started writing here on Medium, and it’s been a pleasure! I really enjoyed writing and I really like the feedback that I get from you guys.❤️</p>
+
+<h4 id="i-buildapps">I build apps</h4>
+
+<p>One of the things I enjoy is building iOS applications. I love the ability to solve a real-world problem with just an app on your iPhone. I haven’t made any big application yet. I’m still learning and I have a very long way to go. Eventually, I’ll be there and very soon I’ll have an app on the App Store. I guess, having an app on the App Store will definitely be a huge boost in my resume.</p>
+
+<h4 id="programming-competitions">Programming Competitions</h4>
+
+<p>Programming competitions are a great thing to do while you are at school. By doing programming contests, you gain an intimate understanding of data structures, algorithms, and their complexities. Solving contest problems is an excellent way to familiarize yourself with a programming language, data structures, as well as get better at converting procedural ideas to code. These are very useful skills for a coding interview.</p>
+
+<p>There are some famous programming competitions in which I plan to participate in this year. Like, Google’s <a href="https://codingcompetitions.withgoogle.com/hashcode">Hash Code</a> and <a href="https://codingcompetitions.withgoogle.com/codejam">Code Jam</a>, <a href="https://icpc.baylor.edu/">ACM ICPC</a>, <a href="https://www.facebook.com/hackercup/">Facebook Hacker Cup</a>, and more. Just try to do your best to join these programming competitions, the experience that you will gain is priceless in terms of problem-solving skills. Maybe it’ll be the reason you will get an interview. Also, you can participate in online competitions on websites like <a href="http://Codeforces.com">Codeforces</a>, <a href="http://leetcode.com">LeetCode</a>, <a href="https://www.topcoder.com/">TopCoder</a>, <a href="http://HackerRank.com">HackerRank</a>, and many more.</p>
+
+<h4 id="hackathons">Hackathons</h4>
+
+<p>I plan on joining hackathons this year. At a hackathon, It is very important to learn how to network with others. You’ll meet students who are interested in the same things that you are and love to work on projects. You will also connect with companies and it might be the reason you get interviewed. Finally, if your project won, it will give you a huge boost in your resume.</p>
+
+<h4 id="local-meetups">Local meetups</h4>
+
+<p>I went to <a href="https://twitter.com/swiftcairo">SwiftCairo</a> meetup twice now, and it’s been a pleasure so far. Meetups are a great way to communicate and build a network. You’ll meet people who are interested in the same things that you are and they will be more than happy to help you.</p>
+
+<h4 id="preparing-for-the-technical-interview">Preparing for the Technical Interview</h4>
+
+<p>Of course, we can’t ignore this portion. It’s a must to be good at problem-solving to pass an interview with any one of the “big four” companies. So, here’s what I do/ what I plan on doing:</p>
+
+<ol>
+  <li><strong>The programming language</strong> 
+It’s recommended to do your interview in one of those famous programming languages. Such as; C++, Java, Python, and JavaScript. I already know C++ and I did a lot of Problem Solving with it. I was very comfortable with it until I got the chance to interview with Google. In the interview, Of course, I used C++. I didn’t have much time and I found out that I spend a lot of time writing a lot of code that has nothing to do with my solution. So, I decided to learn a new language. I chose Python because it’s very fast to type in and I feel like it’s almost like pseudocode. You can also search online why it’s a good language to use in your interview and keep in mind everything has its ups and downs.</li>
+  <li><strong>Algorithms and Data Structures</strong>
+You must be good at algorithms and data structures to be able to pass your technical interview. I read a book about algorithms and data structures in Python. The book called <em>Data Structures and Algorithms in Python — Michael H. Goldwasser, Michael T. Goodrich, and Roberto Tamassia</em>, it’s a really great book. It starts with teaching you the basics of Python, then it starts in the algorithms and data structures portion. I’ll add also all of the other great resources that I use in learning algorithms and data structures down in the resources section.</li>
+  <li><strong>Solving problems</strong>
+After I read a chapter on a specific part, or study a specific data structure. I solve problems from Cracking the Coding Interview, and <em>Data Structures and Algorithms in Python</em>books<em>.</em>Then, I solve easy to medium problems about the topic in which I’m studying from LeetCode. Finally, I might solve a problem or tow about the same topic from HackerRank’s Interview Preparation Kit.</li>
+  <li><strong>Mock Interviews</strong>
+It’s really recommended to practice the interview style with someone of your friends. You can arrange to do mock interviews, as each one takes a problem and tries to solve it on his own. The next day you can ask your friend the problem that you already know the solution for it, and vice versa. So, at the end of the day, each of you had a mock interview and learned about two different problems. Another great resource, that you can practice mock interviews on, is a website called <a href="https://www.pramp.com"><em>Pramp.com</em></a>. I really recommend this website, for practicing an interview-like setting.</li>
+</ol>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>Hopefully, I’ll be committing to my plan, as I’ll be consistently learning, making apps, and solving problems. I’ll also try to get an interview at one of the “big four” in April this year, and hopefully, I’ll pass.</p>
+
+<p>I’d love to hear about any experiences you may have about interviewing at one of the “big four”. How did it go, how did you prepare? Also, what do you think of my plan? Is it good, or maybe you have a suggestion to improve it?</p>
+
+<p>Feel free to find &amp; add over <a href="https://www.linkedin.com/in/hassaneldesouky/">LinkedIn</a>.</p>
+
+<h3 id="resources">Resources</h3>
+
+<ul>
+  <li><a href="https://amzn.to/2ta6IbM">Cracking the Coding Interview</a> (Affiliate link)</li>
+  <li><a href="https://amzn.to/2WMDxJf">Elements of Programming Interviews</a> (Affiliate link)</li>
+  <li><a href="https://amzn.to/2HUkzx9">Data Structures and Algorithms in Python</a> (Affiliate link)</li>
+  <li><a href="https://github.com/jwasham/coding-interview-university">Coding Interview University</a> (GitHub repo)
+CIU is a great repo for preparing for your next interview, you have to check it out.</li>
+  <li><a href="https://github.com/MaximAbramchuck/awesome-interview-questions">Awesome Interview Questions</a> (GitHub repo)
+A curated list of lists of technical interview questions.</li>
+  <li><a href="https://github.com/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews">Python for Algorithms Data Structures and Interviews</a> (GitHub repo)
+This repo is really simple and helped me a lot to learn some basics data structures and algorithms. Pick a topic a read the Jupyter notebook file, then do the problems.</li>
+  <li><a href="https://github.com/jmportilla/Complete-Python-Bootcamp">Complete Python Bootcamp</a> (GitHub repo)
+If you have prior knowledge in any programming language and want to learn the basics of Python. I strongly recommend giving this repo a shot.</li>
+  <li><a href="https://www.pramp.com/invt/M6Vb0Gpz3gsGoJJ7Mo3P">Pramp.com</a> (Invite link)
+I highly recommend this website for practicing mock interviews with a real person.</li>
+  <li><a href="https://leetcode.com/">LeetCode</a></li>
+  <li><a href="https://www.hackerrank.com/interview/interview-preparation-kit">HackerRank Interview Preparation Kit</a></li>
+  <li><a href="https://www.quora.com/Why-do-people-participate-in-hackathons">Why do people participate in hackathons?</a> (Quora answer)</li>
+</ul>
+
+<p><a href="https://www.paypal.me/HassanElDesouky?locale.x=en_US"><img src="https://cdn-images-1.medium.com/max/800/1*8RA2giRIK2fXze7e57361Q.png" alt="" /></a></p>
+
+<p>By <a href="https://medium.com/@hassaneldesouky">Hassan El Desouky</a> on <a href="https://medium.com/p/515c8e6c4b53">February 18, 2019</a>.</p>
+
+
+        <!-- <p style="margin-top: 30px" class="side-projects-note">
+  <small>Unless otherwise mentioned in the post, those projects are side projects which I work on on weekends and evenings, and are not affiliated with my work or employer.</small>
+</p>
+ -->
+      </div>
+
+      <p class="extra-info">
+        
+          Tags: blogging, advice, interviews &nbsp; | &nbsp;
+        
+        <a href="https://github.com/hassaneldesouky/HassanElDesouky.github.io/edit/master/_posts/2019-02-18-How-I-failed-39-interviews-and-what-I-ve-learned.md" target="_blank" class="forkButton">
+  <svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+ 
+  Edit on GitHub
+</a>
+      </p>
+    </article>
+  
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline"><a href="/blog/How-I-created-Apple-s-Voice-Memos-clone">How I created Apple’s Voice Memos clone</a></h1>
+        <p class="post-meta">
+          <time datetime="2019-01-21T00:00:00+00:00" itemprop="datePublished">
+            
+            Jan 21, 2019
+          </time>
+          </p>
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        <h2 id="how-i-created-apples-voice-memos-clone">How I created Apple’s Voice Memos clone</h2>
+
+<p>Learn how to create a voice recording app, that has audio visualization as well as a record button just like Apple’s Voice Memos app.</p>
+
+<hr />
+
+<h3 id="how-i-created-apples-voice-memosclone">How I created Apple’s Voice Memos clone</h3>
+
+<p><img src="https://cdn-images-1.medium.com/max/2560/1*gZVacMLXnPfxHQAJfvFDCA.png" alt="" /></p>
+
+<p>Several months ago, I really wanted to create a voice recorder with an audio visualizer like Apple’s Voice Memos app. As a beginner, I googled a lot but I couldn’t find anything that worked or did what I really wanted. Therefore I decided to go for it and try to build it myself.</p>
+
+<p>Follow my learning path and see how to create a voice recording app, that has audio visualization as well as a record button just like Apple’s Voice Memos app.</p>
+
+<h3 id="the-basicsetup">The basic setup.</h3>
+
+<p>Of course, I’m going to start by creating a new project. Call it on your own taste, I’m going to call mine VoiceMemosClone. Make sure the app is working and you get this satisfying white screen. Now everything looks great, but before we go any farther let’s break the original Voice Memos app into smaller pieces.</p>
+
+<p>Personally, I find it very difficult to start building/ coding something without preparing first, also I find it very intimidating. Therefore, I like cracking everything into smaller pieces and solve every small task alone.</p>
+
+<p>So if you look at Apple’s Voice Memos app, you’ll find several key features: 
+**1. The draggable bottom view.</p>
+<ol>
+  <li>The animation of the recording/ stop button.</li>
+  <li>The audio visualizer while recording.</li>
+  <li>Actual recording.**</li>
+</ol>
+
+<p>Now, let’s build them together!</p>
+
+<p><a href="https://www.paypal.me/HassanElDesouky?locale.x=en_US"><img src="https://cdn-images-1.medium.com/max/800/1*4N4u_wPLkqco5f1S1sX5tA.png" alt="" /></a></p>
+
+<h3 id="prepare-the-basic-user-interface">Prepare the basic User Interface.</h3>
+
+<p>In <em>Main.storyboard</em> in the <em>ViewController</em>, embed in a <em>NavigationController</em>, check <em>PrefersLargeTitles</em>, and give it “Voice Memos” as a title.</p>
+
+<h3 id="1-the-cardview"><strong>1. The Card View.</strong></h3>
+
+<p>First, add two containerViews to the View Controller. One of them is a RecordingsViewController and the other one is that RecorderViewController. Create a new UIViewController Classes from the File -&gt; New menu, choose UI Cocoa Touch Class file.</p>
+
+<p>Change the background color of the RecorderViewController to <em>ViewFlipsideBackgroundColor</em>, change the size property to Freeform. And In the Size Inspector make the hight 150. Add also a UIView and make it the same size as the ViewController and give it a black color with 45% alpha. In RecordingsViewController add to it a tableView and add also a UIView just like you did in RecorderViewController, and in both UIViews check the Hidden property. Finally, connect the outlets of the UIViews you just created.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/1200/1*zjXh_TKUCrzwhEiHP3_kEQ.jpeg" alt="" /></p>
+
+<p>I like following <a href="https://twitter.com/seanallen_dev">Sean Allen</a> approach of building the UI, it’s called “Skeletal Storyboards”. If you don’t know what I’m talking about check out his video <a href="https://youtu.be/hIQMQmzitfU">here</a>. Therefore let’s jump in the RecorderViewController.</p>
+
+<p>In the RecorderViewController we will be doing almost everything. But first, if you took a look at what we are trying to build and analyze it, you will find the following.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*AXoneKtO_N7M4mC0s3kT_w.jpeg" alt="" /></p>
+
+<p>So, let’s start with the handle view. In <em>RecordViewController.swift</em>add a new <em>property (</em>call it<em>handleView)</em>and a private method (call it <em>setupHandleView). Also, s</em>etup the layout constrains and don’t forget to call <em>setupHandleView()</em> in <em>viewDidLoad</em>().</p>
+
+<script src="https://gist.github.com/HassanElDesouky/63c6d03a2349e3ac8143ed253aa7ef6f.js"></script>
+
+<p>You will get an error saying <em>“Argument labels ‘(r:, g:, b:)’ do not match any available overloads”.</em>That’s because I’ve made an extension file for the UIColor. So, create a new Swift file, call it Extensions and add the following code in it. Some of the code below we will be using it in the future. Everything should work fine now.</p>
+
+<script src="https://gist.github.com/HassanElDesouky/3aded6f035a2de79a8fda8f9f360d53b.js"></script>
+
+<h3 id="2-the-recordbutton">2. The Record Button.</h3>
+
+<p><img src="https://cdn-images-1.medium.com/max/600/1*9DKIrRFVSwtxknaPLXL_dQ.gif" alt="" /></p>
+
+<p>I wanted to create a recording button just like the app and I did a search and found out a great article <a href="http://markalldritt.com/?p=1193">here</a>. In this article Mark Alldritt go through how he created the button animation. I really recommended you to read it. Anyways, just copy the <em>RecordButton.swift</em> and the <em>RecordButtonKit.swift</em> files alongside with copying the StartRecording and the StopRecording sound files.</p>
+
+<p>To make it work you will have to install the <a href="https://cocoapods.org/pods/PRTween">PRTween pod</a>. So, create a pod file in your project directory and install it. The pod is in Objective-C. Therefore, we will have to create an Objective-C Bridge file.</p>
+
+<p>To create the Objective-C Bridge file: from File -&gt; New -&gt; File, choose Header File, it’s really important what you will name your header file so <strong>pay attention</strong> here “nameOfYourProject*-Bridging-Header.h”.</p>
+
+<p><em>I will name mine</em> <strong>VoiceMemosClone-Bridging-Header.h</strong></p>
+
+<p>add it to your project folder. Finally, choose your app target and go to Build Settings, make sure All is selected on top, find Objective-C Bridging Header and give it the path of your header file.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*bbKcRHT7adBpBtcgiQVclw.jpeg" alt="" /></p>
+
+<p>Open the header file that you just created, delete everything from it, and just type this following line of code.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#import &lt;PRTween/PRTween-umbrella.h&gt;
+</code></pre></div></div>
+
+<p>Now, in your <em>RecorderViewController.swift</em> file add the button, its constraints, and add your <em>handleRecording</em> function. As always don’t forget to call it in your viewDidLoad method.</p>
+
+<script src="https://gist.github.com/HassanElDesouky/bbef3ec2584f061023ff7776c263bb39.js"></script>
+
+<p>Now we need to show a couple of things when you click on the recordButton; the audioView and the timeLabel. So, add a label and a uiview(for now) to the recorderViewController. When we tap on the button we need some animation on the card view, here is what I did.</p>
+
+<script src="https://gist.github.com/HassanElDesouky/80646bf1b2dd19d76456dc66286ef95e.js"></script>
+
+<h3 id="3-audiovisualizerview">3. AudioVisualizerView</h3>
+
+<p>Create a UIView class and the following to it, to create the audio visualizer.</p>
+
+<script src="https://gist.github.com/HassanElDesouky/38a6d07b4a039b0bb3259ce28257b230.js"></script>
+
+<p>Now, in <em>RecorderViewController.swift</em> change the audioView to:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var audioView = AudioVisualizerView()
+</code></pre></div></div>
+
+<p>Now you just need to set up the recorder and actually record!</p>
+
+<h3 id="the-finalresult">The final result.</h3>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*OKYCiP3V0sZgeCcRZ6UdCA.gif" alt="" /></p>
+
+<p>I’m really happy with the final result… however, there are a few enhancements that maybe you could make it to this project, like: </p>
+<ol>
+  <li>Adding a deleting functionality.</li>
+  <li>Add auto layout, because it’s now only working on iPhone X or XS.</li>
+  <li>Make the cardView (Recorder) draggable.**</li>
+</ol>
+
+<h3 id="conclusion">Conclusion.</h3>
+
+<p>Ultimately I’m really happy with what I was able to achieve. Not only is it functional, but I had a lot of fun doing it!</p>
+
+<p>I’d love to hear about any experiences you may have about a similar project. I’d also like to see what you may do differently to achieve a better result.</p>
+
+<p>I’m now looking forward to the next blog, what should I try to build next?</p>
+
+<p>If you aren’t a designer you can also buy some great <a href="https://www.iosapptemplates.com/">iOS App Templates</a> and if you are more interested in <a href="https://www.instamobile.io/">React Native App Templates</a> you can buy them from here they have a really great collection.</p>
+
+<h3 id="the-full-project-is-ongithub">The full project is on GitHub.</h3>
+
+<p>Feel free to use it!</p>
+
+<p><a href="https://github.com/HassanElDesouky/VoiceMemosClone" title="https://github.com/HassanElDesouky/VoiceMemosClone"><strong>HassanElDesouky/VoiceMemosClone</strong></a><a href="https://github.com/HassanElDesouky/VoiceMemosClone"></a></p>
+
+<h3 id="resources">Resources.</h3>
+
+<p>I couldn’t have ever gotten to this results without these guys great work. So, please check them out.</p>
+
+<ol>
+  <li>The record button by Mark Alldritt, GitHub repo <a href="https://github.com/alldritt/RecordButton">here</a>.</li>
+  <li>Simple Recorder by Sergey Yuryev, GitHub repo <a href="https://github.com/snyuryev/SimpleRecorder">here</a>.</li>
+  <li>How to record audio by Paul Hudson, tutorial link <a href="https://www.hackingwithswift.com/example-code/media/how-to-record-audio-using-avaudiorecorder">here</a>.</li>
+</ol>
+
+<p>Shoutout to:
+<a href="https://twitter.com/MoElnaggar14"><strong>Mohammed Elnaggar</strong></a>
+<a href="https://twitter.com/M_Ennabah"><strong>Mohammed Ennabah</strong></a>
+<a href="https://twitter.com/LisaDziuba"><strong>Lisa Dziuba</strong></a></p>
+
+<p><a href="https://www.paypal.me/HassanElDesouky?locale.x=en_US"><img src="https://cdn-images-1.medium.com/max/800/1*8RA2giRIK2fXze7e57361Q.png" alt="" /></a></p>
+
+<p>By <a href="https://medium.com/@hassaneldesouky">Hassan El Desouky</a> on <a href="https://medium.com/p/b6cd6d65f580">January 21, 2019</a>.</p>
+
+<p><a href="https://medium.com/@hassaneldesouky/how-i-created-apples-voice-memos-clone-b6cd6d65f580">Canonical link</a></p>
+
+
+        <!-- <p style="margin-top: 30px" class="side-projects-note">
+  <small>Unless otherwise mentioned in the post, those projects are side projects which I work on on weekends and evenings, and are not affiliated with my work or employer.</small>
+</p>
+ -->
+      </div>
+
+      <p class="extra-info">
+        
+          Tags: apple, tutorial, iOS &nbsp; | &nbsp;
+        
+        <a href="https://github.com/hassaneldesouky/HassanElDesouky.github.io/edit/master/_posts/2019-01-21-How-I-created-Apple-s-Voice-Memos-clone.md" target="_blank" class="forkButton">
+  <svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+ 
+  Edit on GitHub
+</a>
+      </p>
+    </article>
+  
+
+  <!-- Pagination links -->
+  <div class="pagination">
+    
+      <a href="/blog/page5/" class="previous">Newer</a>
+    
+    /
+    
+      <a href="/blog/page7/" class="next">Older</a>
+    
+  </div>
+
+</div>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          <li>
+            <a href="https://github.com/hassaneldesouky" target="_blank"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">hassaneldesouky</span></a>
+
+          </li>
+          <li>
+            <a href="https://twitter.com/hassanedesouky" target="_blank"><span class="icon icon--twitter"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">hassanedesouky</span></a>
+
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col footer-col-2"></div>
+      <div class="footer-col footer-col-3">
+        <p class="subscribe-newsletter">
+  Want to be the first to hear more about software engineering and Apple technologies related blogs?
+</p>
+
+<form class="subscribe-form" action="https://xyz.us19.list-manage.com/subscribe/post?u=145858a976462402b211db504&amp;id=5f723dd3d2" method="post" target="popupwindow" onsubmit="window.open('https://xyz.us19.list-manage.com/subscribe/post?u=145858a976462402b211db504', 'popupwindow', 'scrollbars=yes,width=600,height=620');return true">
+  <label for="tlemail"></label>
+  <input type="text" placeholder="Email Address" name="EMAIL" id="tlemail">
+  <input type="hidden" value="1" name="embed">
+  <button type="submit" name="subscribe">
+    Subscribe
+  </button>
+</form>
+
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<script type="text/javascript">
+  var links = document.links;
+  for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+    if (links[i].hostname != window.location.hostname) {
+      links[i].target = '_blank';
+    } 
+  }
+</script>
+
+
+  </body>
+
+</html>
