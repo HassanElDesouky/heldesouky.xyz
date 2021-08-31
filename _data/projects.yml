@@ -1,9 +1,15 @@
-- title: "Remelo"
-  url: "https://testflight.apple.com/join/e9oLmlRi"
+- title: "Remelo - Remind me later"
+  url: "https://apps.apple.com/us/app/remelo-remind-me-later/id1500157844"
   subtitle: "Developed a reminder app with the ability to make reminders with voice recording and with location based notifications.<br>
   <b>Technologies Used:</b> Swift, UIKit, MapKit, Speech, AVFoundation, In-App Purchases, CloudKit, CoreData, Local and Remote Notification, Instabug."
   blog: ""
-  metadata: "Currently on TestFlight and soon on 🍎 App Store"
+  metadata: "On 🍎 App Store"
+- title: "Ventter - Vent on Twitter"
+  url: "https://apps.apple.com/us/app/ventter-vent-on-twitter/id1531583688"
+  subtitle: "Developed a Twitter client that lets you share your thoughts on your twitter account without the headache of notifications or the timeline.<br>
+  <b>Technologies Used:</b> Swift, UIKit, Networking, Twitter API."
+  blog: ""
+  metadata: "On 🍎 App Store"
 - title: "VoiceMemosClone"
   url: "https://github.com/HassanElDesouky/VoiceMemosClone"
   subtitle: "Developed a clone of the original Apple’s Voice Memos app that supports audio visualizing while recording.<br>
